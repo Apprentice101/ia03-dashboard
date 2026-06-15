@@ -1,118 +1,779 @@
 {
   "version": "1",
-  "dataAsOf": "2026-06-10",
-  "updatedAt": "2026-06-10T22:00:00Z",
-  "exportedAt": "2026-06-10T22:00:00Z",
+  "dataAsOf": "2026-06-02",
+  "updatedAt": "2026-06-02T21:45:00Z",
+  "exportedAt": "2026-06-15T19:44:40.934Z",
+  "districtCode": "IA-03",
   "data": {
     "DISTRICT": {
       "id": "ia-03",
-      "name": "IA-03 (US Congressional District)",
+      "districtNumber": "IA-03",
+      "districtName": "Iowa's 3rd Congressional District",
       "state": "Iowa",
       "counties": [
-        "Polk",
+        "Adair",
+        "Adams",
+        "Appanoose",
+        "Cass",
+        "Clarke",
         "Dallas",
-        "Pottawattamie",
-        "Story (parts)",
-        "rural SW Iowa"
-      ]
+        "Davis",
+        "Decatur",
+        "Greene",
+        "Guthrie",
+        "Lucas",
+        "Madison",
+        "Monroe",
+        "Montgomery",
+        "Page",
+        "Polk",
+        "Ringgold",
+        "Taylor",
+        "Union",
+        "Wapello",
+        "Wayne"
+      ],
+      "majorPlaces": [
+        "Des Moines",
+        "West Des Moines",
+        "Ottumwa",
+        "Ankeny",
+        "Creston"
+      ],
+      "cycleYear": 2026,
+      "population": 763929,
+      "registeredVoters": 495000,
+      "partyRegistration": [
+        {
+          "label": "Democratic",
+          "count": 178200,
+          "pct": 36
+        },
+        {
+          "label": "Republican",
+          "count": 173250,
+          "pct": 35
+        },
+        {
+          "label": "Other / No Party",
+          "count": 143550,
+          "pct": 29
+        }
+      ],
+      "previousResult": {
+        "year": 2024,
+        "seat": "U.S. House — IA-03",
+        "winner": {
+          "name": "Zach Nunn (R)",
+          "pct": 51.8,
+          "votes": 174000
+        },
+        "runnerUp": {
+          "name": "Lanon Baccam (D)",
+          "pct": 48.2,
+          "votes": 162000
+        },
+        "turnoutPct": 69.4
+      }
     },
-    "UPDATES": [],
-    "CONFLICTS": [],
+    "SOURCES": {
+      "src-ia-sos-primary": {
+        "id": "src-ia-sos-primary",
+        "name": "Iowa Secretary of State — Primary Election",
+        "short": "IA SOS Primary",
+        "url": "https://sos.iowa.gov/primary-election",
+        "publisher": "Iowa Secretary of State — Paul D. Pate",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-05-27",
+        "lastVerified": "2026-05-27",
+        "confidence": "high"
+      },
+      "src-ia-sos-register": {
+        "id": "src-ia-sos-register",
+        "name": "Iowa Secretary of State — Voter Registration",
+        "short": "IA SOS Register",
+        "url": "https://sos.iowa.gov/voters/voter-registration",
+        "publisher": "Iowa Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-05-27",
+        "lastVerified": "2026-05-27",
+        "confidence": "high"
+      },
+      "src-ia-sos-absentee": {
+        "id": "src-ia-sos-absentee",
+        "name": "Iowa Secretary of State — Absentee Voting",
+        "short": "IA SOS Absentee",
+        "url": "https://sos.iowa.gov/voters/absentee-voting",
+        "publisher": "Iowa Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-05-27",
+        "lastVerified": "2026-05-27",
+        "confidence": "high"
+      },
+      "src-ia-voter-ready": {
+        "id": "src-ia-voter-ready",
+        "name": "Voter Ready Iowa — Official Voter Guide",
+        "short": "Voter Ready IA",
+        "url": "https://voterready.iowa.gov",
+        "publisher": "Iowa Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-05-27",
+        "lastVerified": "2026-05-27",
+        "confidence": "high"
+      },
+      "src-ia-statutes": {
+        "id": "src-ia-statutes",
+        "name": "Iowa Code — Title IX Elections",
+        "short": "Iowa Code Elections",
+        "url": "https://www.legis.iowa.gov/law/iowaCode/chapters?title=IX",
+        "publisher": "Iowa Legislature",
+        "sourceType": "statutory",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-05-27",
+        "lastVerified": "2026-05-27",
+        "confidence": "high"
+      },
+      "src-ia-hf928": {
+        "id": "src-ia-hf928",
+        "name": "Iowa HF 928 — Recount Uniformity Law (2025)",
+        "short": "IA HF 928 Recount",
+        "url": "https://www.iowapublicradio.org/state-government-news/2025-04-15/senate-bill-changes-iowa-election-recount-process",
+        "publisher": "Iowa Legislature / Iowa Public Radio coverage",
+        "sourceType": "statutory",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-05-27",
+        "lastVerified": "2026-05-27",
+        "confidence": "high"
+      },
+      "src-ia-hf954": {
+        "id": "src-ia-hf954",
+        "name": "Iowa HF 954 — Citizenship Verification & Election Standardization (2025)",
+        "short": "IA HF 954",
+        "url": "https://sos.iowa.gov/news-resources/secretary-pate-praises-new-election-laws-strengthening-iowas-election-integrity",
+        "publisher": "Iowa Secretary of State",
+        "sourceType": "statutory",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-05-27",
+        "lastVerified": "2026-05-27",
+        "confidence": "high"
+      },
+      "src-ballotpedia-ia03": {
+        "id": "src-ballotpedia-ia03",
+        "name": "Ballotpedia — Iowa's 3rd Congressional District",
+        "short": "Ballotpedia IA-03",
+        "url": "https://ballotpedia.org/Iowa's_3rd_Congressional_District",
+        "publisher": "Ballotpedia",
+        "sourceType": "civic-nonprofit",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-05-27",
+        "lastVerified": "2026-05-27",
+        "confidence": "medium"
+      },
+      "src-polk-auditor": {
+        "id": "src-polk-auditor",
+        "name": "Polk County Auditor — Elections",
+        "short": "Polk County Elections",
+        "url": "https://www.polkcountyiowa.gov/auditor/elections/",
+        "publisher": "Polk County Auditor",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-05-27",
+        "lastVerified": "2026-05-27",
+        "confidence": "high"
+      },
+      "src-dallas-auditor": {
+        "id": "src-dallas-auditor",
+        "name": "Dallas County Auditor — Elections",
+        "short": "Dallas County Elections",
+        "url": "https://www.dallascountyiowa.gov/auditor/",
+        "publisher": "Dallas County Auditor",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-05-27",
+        "lastVerified": "2026-05-27",
+        "confidence": "high"
+      },
+      "src-ipr-ia03": {
+        "id": "src-ipr-ia03",
+        "name": "Iowa Public Radio — 3rd Congressional District",
+        "short": "Iowa Public Radio IA-03",
+        "url": "https://www.iowapublicradio.org/tags/3rd-congressional-district",
+        "publisher": "Iowa Public Radio",
+        "sourceType": "news",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-05-27",
+        "lastVerified": "2026-05-27",
+        "confidence": "medium"
+      },
+      "src-dsm-register": {
+        "id": "src-dsm-register",
+        "name": "Des Moines Register — Iowa Politics",
+        "short": "Des Moines Register",
+        "url": "https://www.desmoinesregister.com/news/politics-government/",
+        "publisher": "Des Moines Register",
+        "sourceType": "news",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-05-27",
+        "lastVerified": "2026-05-27",
+        "confidence": "medium"
+      },
+      "src-brennan": {
+        "id": "src-brennan",
+        "name": "Brennan Center — 2025 State Voting Laws Roundup",
+        "short": "Brennan Center 2025",
+        "url": "https://www.brennancenter.org/our-work/research-reports/state-voting-laws-roundup-2025-review",
+        "publisher": "Brennan Center for Justice",
+        "sourceType": "civic-nonprofit",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-05-27",
+        "lastVerified": "2026-05-27",
+        "confidence": "medium"
+      }
+    },
+    "ELECTION_EVENTS": [
+      {
+        "id": "ev-primary-date",
+        "electionType": "primary",
+        "milestone": "Primary election day",
+        "date": "2026-06-02",
+        "significance": "Iowa 2026 primary election. Polls open 7:00 AM – 8:00 PM Central Time. IA-03 Democratic primary is uncontested — Sarah Trone Garriott is the presumptive Democratic nominee.",
+        "governingAuthority": "Iowa Secretary of State",
+        "status": "confirmed",
+        "sourceIds": [
+          "src-ia-sos-primary",
+          "src-ia-voter-ready"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "ev-primary-reg-deadline",
+        "electionType": "primary",
+        "milestone": "Voter registration deadline",
+        "date": "2026-05-18",
+        "significance": "Pre-registration deadline for June 2 primary (15 days before election, by 5:00 PM CT). Same-day registration available May 19 through June 2 with photo ID and proof of residence.",
+        "governingAuthority": "Iowa Secretary of State",
+        "status": "confirmed",
+        "sourceIds": [
+          "src-ia-sos-register",
+          "src-ia-voter-ready"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "ev-primary-absentee-request",
+        "electionType": "primary",
+        "milestone": "Absentee ballot request deadline",
+        "date": "2026-05-18",
+        "significance": "Deadline for mailed absentee ballot requests to reach the county auditor by 5:00 PM CT. In-person absentee voting available through June 1.",
+        "governingAuthority": "Iowa Secretary of State",
+        "status": "confirmed",
+        "sourceIds": [
+          "src-ia-sos-absentee",
+          "src-ia-voter-ready"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "ev-primary-receipt",
+        "electionType": "primary",
+        "milestone": "Absentee ballot receipt deadline",
+        "date": "2026-06-02",
+        "significance": "Absentee ballots must be received by the county auditor by 8:00 PM CT on election day. Postmarks do not count.",
+        "governingAuthority": "Iowa Secretary of State",
+        "status": "confirmed",
+        "sourceIds": [
+          "src-ia-sos-absentee",
+          "src-ia-voter-ready"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "ev-general-date",
+        "electionType": "general",
+        "milestone": "General election day",
+        "date": "2026-11-03",
+        "significance": "Iowa 2026 general election. Polls open 7:00 AM – 8:00 PM Central Time. Presumptive matchup: Rep. Zach Nunn (R) vs. Sarah Trone Garriott (D).",
+        "governingAuthority": "Iowa Secretary of State",
+        "status": "confirmed",
+        "sourceIds": [
+          "src-ia-sos-primary"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "ev-general-reg-deadline",
+        "electionType": "general",
+        "milestone": "Voter registration deadline",
+        "date": "2026-10-19",
+        "significance": "Pre-registration deadline for November 3 general election (15 days before, by 5:00 PM CT). Same-day registration available Oct 20 through Nov 3 with proof of ID and residence.",
+        "governingAuthority": "Iowa Secretary of State",
+        "status": "confirmed",
+        "sourceIds": [
+          "src-ia-sos-register"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "ev-general-absentee-request",
+        "electionType": "general",
+        "milestone": "Absentee ballot request deadline",
+        "date": "2026-10-19",
+        "significance": "Deadline for mailed absentee ballot requests to reach the county auditor by 5:00 PM CT. In-person absentee voting available through November 2.",
+        "governingAuthority": "Iowa Secretary of State",
+        "status": "confirmed",
+        "sourceIds": [
+          "src-ia-sos-absentee"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "ev-general-receipt",
+        "electionType": "general",
+        "milestone": "Absentee ballot receipt deadline",
+        "date": "2026-11-03",
+        "significance": "Absentee ballots must be received by the county auditor by 8:00 PM CT on election day. Postmarks do not count.",
+        "governingAuthority": "Iowa Secretary of State",
+        "status": "confirmed",
+        "sourceIds": [
+          "src-ia-sos-absentee"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "ev-closed-primary-watch",
+        "electionType": "primary",
+        "milestone": "Closed primary party registration rule",
+        "date": "2026-06-02",
+        "significance": "Iowa holds a closed primary. Voters must be registered with a party to participate. Independents may change party registration on election day at the polls. IA-03 Democratic primary is uncontested.",
+        "governingAuthority": "Iowa Secretary of State",
+        "status": "confirmed",
+        "sourceIds": [
+          "src-ia-voter-ready",
+          "src-ia-sos-register"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27"
+      }
+    ],
+    "RULES": [
+      {
+        "id": "rule-ia03-registration",
+        "topic": "Registration requirements",
+        "currentRule": "Online, in person, or by mail. Must be a U.S. citizen, Iowa resident, 18+ by election day. Pre-registration deadline is 15 days before the election. Same-day registration is available through election day with photo ID and proof of residence.",
+        "status": "active",
+        "whyItMatters": "Determines who can vote in IA-03. Voters in all 21 counties — including Polk (Des Moines) and Dallas — must register with their county auditor.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ia-sos-register",
+          "src-ia-voter-ready"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27",
+        "detail": "Primary pre-reg deadline: May 18, 2026 at 5 PM. General pre-reg deadline: October 19, 2026 at 5 PM. Same-day registration available with photo ID + proof of current address."
+      },
+      {
+        "id": "rule-ia03-citizenship",
+        "topic": "Citizenship verification",
+        "currentRule": "Iowa HF 954 (signed June 2025) strengthens citizenship verification at voter registration — cross-referencing DOT noncitizen ID files. Registrants flagged as potential non-citizens are placed in 'unconfirmed' status and must provide documentation to vote a full ballot.",
+        "status": "watch",
+        "whyItMatters": "New 2025 law adds an active citizenship cross-check at registration. Polk County's large and diverse population may see elevated 'unconfirmed' designations — monitor for implementation issues.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ia-hf954",
+          "src-ia-sos-register"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27",
+        "needsReview": true,
+        "detail": "Iowa HF 954 took effect in 2025. Polk County has Iowa's largest voter rolls — verify county auditor implementation guidance before the general election."
+      },
+      {
+        "id": "rule-ia03-voter-id",
+        "topic": "Voter ID at the polls",
+        "currentRule": "Iowa requires photo ID to vote in person. Acceptable IDs: Iowa driver's license, Iowa non-operator ID, U.S. passport, military/veteran ID, tribal ID, or Iowa Voter ID card (must be signed). ID must not be expired more than 90 days for driver's licenses.",
+        "status": "active",
+        "whyItMatters": "Voters without a qualifying ID will need another registered voter in the same precinct to attest to their identity, or they may cast a provisional ballot.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ia-voter-ready",
+          "src-ia-sos-register"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27",
+        "detail": "Iowa Voter ID cards are issued automatically to registered voters who lack an Iowa driver's license or non-operator ID. Contact the Polk or Dallas county auditor to request one."
+      },
+      {
+        "id": "rule-ia03-absentee",
+        "topic": "Absentee (mail) voting",
+        "currentRule": "Any registered voter may request an absentee ballot — no excuse required. Request must include Iowa driver's license number, non-operator ID number, voter ID/verification number, or 4-digit PIN from voter ID card.",
+        "status": "active",
+        "whyItMatters": "Absentee voting is widely used in Polk County and suburban IA-03 communities. Requests must be submitted by the county auditor deadline; ballots must be received — not postmarked — by 8 PM on election day.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ia-sos-absentee",
+          "src-ia-voter-ready"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "rule-ia03-absentee-request-deadline",
+        "topic": "Absentee request deadline",
+        "currentRule": "Mailed absentee ballot requests must be received by the county auditor by 5:00 PM, 15 days before the election. Primary deadline: May 18, 2026. General deadline: October 19, 2026. In-person requests may be made through the day before the election.",
+        "status": "active",
+        "whyItMatters": "Late mailed requests are rejected. Voters who miss the mail deadline may still request an absentee ballot in person at the county auditor's office through the day before the election.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ia-sos-absentee",
+          "src-ia-voter-ready"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "rule-ia03-early-voting",
+        "topic": "Early (in-person absentee) voting",
+        "currentRule": "In-person absentee voting begins 20 days before the election at each county auditor's office. Primary early voting window: May 13 – June 1, 2026. General window: October 14 – November 2, 2026.",
+        "status": "active",
+        "whyItMatters": "Iowa's early voting mechanism is the 'in-person absentee' system — voters visit the county auditor's office, request and cast their ballot in one step. Polk County may offer additional satellite sites.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ia-sos-absentee",
+          "src-ia-voter-ready"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "rule-ia03-polling-hours",
+        "topic": "Polling place hours",
+        "currentRule": "Polls are open 7:00 AM to 8:00 PM Central Time on election day. Any voter in line at 8:00 PM is entitled to vote. Iowa does not use open vote centers — voters must go to their assigned precinct.",
+        "status": "active",
+        "whyItMatters": "IA-03 voters must vote at their assigned precinct. In Polk County, with many precincts, voters should confirm their polling place before election day.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ia-voter-ready",
+          "src-polk-auditor"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "rule-ia03-closed-primary",
+        "topic": "Closed primary / party registration",
+        "currentRule": "Iowa holds a closed primary — voters must be registered with a party to vote in that party's primary. Unaffiliated voters must declare a party affiliation to participate. Party registration can be changed on election day.",
+        "status": "active",
+        "whyItMatters": "IA-03's Democratic primary is uncontested — Sarah Trone Garriott is the presumptive nominee. Republican voters in Polk and suburban counties will decide Nunn's primary result.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ia-sos-register",
+          "src-ia-voter-ready"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "rule-ia03-ballot-return",
+        "topic": "Absentee ballot return rules",
+        "currentRule": "Absentee ballots must be physically received by the county auditor by 8:00 PM on election day. Postmarks do not count. Primary receipt deadline: June 2, 2026 at 8 PM. General: November 3, 2026 at 8 PM.",
+        "status": "active",
+        "whyItMatters": "Most common cause of absentee ballot rejection in Iowa. Voters in suburban and rural IA-03 counties should return ballots by drop-off at the county auditor rather than relying on mail transit.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ia-sos-absentee",
+          "src-ia-voter-ready"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27",
+        "detail": "Iowa Code § 53. Ballots may be returned in person to the county auditor by any person authorized by the voter, including a family member."
+      },
+      {
+        "id": "rule-ia03-ballot-rejection",
+        "topic": "Ballot rejection",
+        "currentRule": "Common rejection causes: late receipt, missing or invalid voter verification number on request form, signature mismatch, voter not registered at address on file.",
+        "status": "active",
+        "whyItMatters": "Rejected absentee ballots are not counted. Iowa does not have a broad cure process — voters should confirm ballot receipt with the county auditor before election day.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ia-sos-absentee"
+        ],
+        "confidence": "medium",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "rule-ia03-provisional",
+        "topic": "Provisional ballots",
+        "currentRule": "Voters who lack required ID, are not in the precinct roster, or whose registration is in 'unconfirmed' or 'inactive' status may cast a provisional ballot. Counted after identity and eligibility are confirmed.",
+        "status": "active",
+        "whyItMatters": "Affects IA-03 voters who lack ID, have recently moved (Polk County has high residential mobility), or face registration issues under HF 954 citizenship-verification rules.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ia-voter-ready",
+          "src-ia-hf954"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "rule-ia03-canvass",
+        "topic": "Canvass and certification",
+        "currentRule": "County canvass held within 10 days after the election. State canvass and certification occurs not later than 27 days after election day (Iowa Code § 50.38).",
+        "status": "active",
+        "whyItMatters": "Determines when IA-03 race results become official. Polk County's large vote count typically drives statewide timelines.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ia-statutes"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27",
+        "detail": "General election state canvass: not later than December 1, 2026 (Iowa Code § 50.38(c))."
+      },
+      {
+        "id": "rule-ia03-recount",
+        "topic": "Recount rules",
+        "currentRule": "Iowa HF 928 (2025): recount may be requested for federal offices if margin < 0.15%. Recounts must use election-day tabulation machines, cover all precincts, and be conducted by county auditors with bipartisan boards. Secretary of State may take over a recount if the board does not follow the law.",
+        "status": "watch",
+        "whyItMatters": "IA-03 has been competitive in recent cycles (Nunn won 2024 with 51.8%). The 0.15% threshold and SOS takeover authority are new 2025 provisions that could be triggered in a close race.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ia-hf928",
+          "src-ia-statutes"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-27",
+        "needsReview": true,
+        "detail": "HF 928 signed June 2, 2025. Recount requests may be filed within 3 days of county canvass. State covers cost if margin is within 0.15% for federal races. Completion deadline: 18 days after county canvass."
+      }
+    ],
+    "RESOURCES": [
+      {
+        "id": "res-ia03-voter-ready",
+        "label": "Voter Ready Iowa — Official voter guide",
+        "description": "Iowa Secretary of State's official voter guide with registration, ID rules, absentee voting, and 2026 primary dates.",
+        "url": "https://voterready.iowa.gov",
+        "governingAuthority": "Iowa Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ia-voter-ready",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "res-ia03-register",
+        "label": "Register to vote in Iowa",
+        "description": "Online voter registration through the Iowa DOT portal, or download the paper form for county auditor submission.",
+        "url": "https://sos.iowa.gov/voters/voter-registration",
+        "governingAuthority": "Iowa Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ia-sos-register",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "res-ia03-absentee",
+        "label": "Absentee voting information",
+        "description": "Official information on requesting and returning absentee ballots, including deadlines and the voter verification number requirement.",
+        "url": "https://sos.iowa.gov/voters/absentee-voting",
+        "governingAuthority": "Iowa Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ia-sos-absentee",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "res-ia03-primary-dates",
+        "label": "2026 Primary election dates & deadlines",
+        "description": "Official Iowa SOS calendar for the June 2, 2026 primary — filing periods, registration deadlines, and absentee windows.",
+        "url": "https://sos.iowa.gov/primary-election",
+        "governingAuthority": "Iowa Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ia-sos-primary",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "res-ia03-polk",
+        "label": "Polk County Auditor — Elections (Des Moines)",
+        "description": "Polk County election information including polling places, absentee ballot requests, and voter registration for Des Moines and surrounding communities.",
+        "url": "https://www.polkcountyiowa.gov/auditor/elections/",
+        "governingAuthority": "Polk County Auditor",
+        "sourceType": "official-county",
+        "sourceId": "src-polk-auditor",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "res-ia03-dallas",
+        "label": "Dallas County Auditor — Elections (Adel/West Des Moines)",
+        "description": "Dallas County election information for western suburban Des Moines including West Des Moines, Waukee, and Urbandale.",
+        "url": "https://www.dallascountyiowa.gov/auditor/",
+        "governingAuthority": "Dallas County Auditor",
+        "sourceType": "official-county",
+        "sourceId": "src-dallas-auditor",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "res-ia03-statutes",
+        "label": "Iowa Code — Title IX (Elections)",
+        "description": "Statutory text for Iowa election law — registration, absentee voting, canvass, and recount procedures.",
+        "url": "https://www.legis.iowa.gov/law/iowaCode/chapters?title=IX",
+        "governingAuthority": "Iowa Legislature",
+        "sourceType": "statutory",
+        "sourceId": "src-ia-statutes",
+        "lastVerified": "2026-05-27"
+      },
+      {
+        "id": "res-ia03-hf928",
+        "label": "Iowa HF 928 — Recount reform (2025)",
+        "description": "New recount law establishing 0.15% threshold for federal races, bipartisan recount boards, and SOS oversight authority. Effective July 1, 2025.",
+        "url": "https://www.iowapublicradio.org/state-government-news/2025-04-15/senate-bill-changes-iowa-election-recount-process",
+        "governingAuthority": "Iowa Legislature",
+        "sourceType": "statutory",
+        "sourceId": "src-ia-hf928",
+        "lastVerified": "2026-05-27"
+      }
+    ],
+    "UPDATES": [
+      {
+        "id": "upd-ia03-001",
+        "title": "HF 928 recount reform now in effect for 2026",
+        "fieldChanged": "Recount eligibility threshold for federal offices",
+        "oldValue": "No automatic recount; candidate-requested with no statutory margin threshold",
+        "newValue": "Recount may be requested if margin < 0.15% for federal races (HF 928, eff. July 1, 2025)",
+        "sourceIds": [
+          "src-ia-hf928"
+        ],
+        "detectedAt": "2026-05-27T05:00:00Z",
+        "severity": "medium",
+        "reviewState": "new",
+        "visibility": "ready_for_public_review"
+      },
+      {
+        "id": "upd-ia03-002",
+        "title": "IA-03 Democratic primary uncontested — Trone Garriott is presumptive nominee",
+        "fieldChanged": "General election matchup",
+        "oldValue": "Democratic nominee TBD",
+        "newValue": "Sarah Trone Garriott (D, state senator) is the presumptive Democratic nominee for November 3 general",
+        "sourceIds": [
+          "src-dsm-register",
+          "src-ipr-ia03"
+        ],
+        "detectedAt": "2026-05-27T05:00:00Z",
+        "severity": "medium",
+        "reviewState": "new",
+        "visibility": "ready_for_public_review"
+      }
+    ],
+    "CONFLICTS": [
+      {
+        "id": "conflict-ia03-001",
+        "factInQuestion": "Polk County in-person absentee satellite sites for 2026",
+        "sourceAId": "src-ia-voter-ready",
+        "sourceAClaim": "Statewide rule: in-person absentee voting at county auditor's office begins 20 days before election.",
+        "sourceBId": "src-polk-auditor",
+        "sourceBClaim": "Polk County may operate additional satellite absentee voting sites beyond the auditor's office — specific sites for 2026 not yet confirmed.",
+        "whyItMatters": "Des Moines / Polk County voters may have access to additional early voting locations not captured in statewide guidance. Verify with Polk County Auditor before October.",
+        "suggestedReviewAction": "Check Polk County Auditor website for satellite absentee voting locations announcement for the November 3 general election.",
+        "severity": "medium",
+        "status": "unresolved",
+        "createdAt": "2026-05-27T05:00:00Z"
+      }
+    ],
     "NEWS": [
       {
-        "headline": "DCCC adds Sarah Trone Garriott to 2026 Red to Blue program targeting IA-03",
-        "sourceName": "DCCC",
-        "url": "https://dccc.org/2026-red-to-blue/",
-        "publishedAt": "2026-06-10",
-        "relevanceSummary": "The Democratic Congressional Campaign Committee officially added Iowa State Senator Sarah Trone Garriott to its competitive Red to Blue program, designating IA-03 \u2014 the Des Moines-area district currently held by Republican Zach Nunn \u2014 as a top target for a November flip. The program provides top-tier candidates with organizational and fundraising support.",
-        "tag": "primary",
-        "id": "news-2026-0610-ia-03-01",
+        "id": "news-ia03-006",
+        "headline": "Iowa primary election day: Nunn and Trone Garriott both uncontested, November rematch set",
+        "sourceName": "PBS NewsHour",
+        "url": "https://www.pbs.org/newshour/politics/live-results-iowa-midterm-primaries",
+        "publishedAt": "2026-06-02",
+        "relevanceSummary": "Both Rep. Zach Nunn (R) and state Sen. Sarah Trone Garriott (D) are running unopposed in the June 2 IA-03 primary. The November 3 general election matchup is already set. IA-03 is rated Lean Republican but among Democrats' top national targets.",
+        "tag": "ballot-access",
         "reviewState": "new"
       },
       {
-        "headline": "Unofficial Results from Primary Election \u2014 Guthrie County (IA-03)",
-        "sourceName": "Lake Panorama Times",
-        "url": "https://lakepanoramatimes.com/news/unofficial-results-from-primary-election/",
-        "publishedAt": "2026-06-10",
-        "relevanceSummary": "Guthrie County (a rural IA-03 county in the Dallas/southwest Iowa corridor) published unofficial June 2 primary results showing Republican Zach Nunn receiving 1,455 uncontested votes and Democrat Sarah Trone Garriott 423 uncontested votes. Results remain unofficial pending formal canvass by the Guthrie County Board of Supervisors.",
-        "tag": "certification",
-        "id": "news-2026-0610-ia-03-02",
+        "id": "news-ia03-001",
+        "headline": "Uncontested primary sets stage for Iowa's highly targeted 3rd Congressional District race",
+        "sourceName": "Des Moines Register",
+        "url": "https://www.desmoinesregister.com",
+        "publishedAt": "2026-05-14",
+        "relevanceSummary": "IA-03's Democratic primary is uncontested, making the November 3 general election the key contest. Presumptive matchup: Rep. Zach Nunn (R) vs. state Sen. Sarah Trone Garriott (D). The race is among Democrats' top national targets given Nunn's 51.8% 2024 margin.",
+        "tag": "ballot-access",
         "reviewState": "new"
       },
       {
-        "headline": "Kentucky Gov. Andy Beshear hosts 'Beers with Beshear' fundraiser for IA-03 challenger Sarah Trone Garriott",
-        "sourceName": "Associated Press (via ABC News)",
-        "url": "https://abcnews.com/US/wireStory/rob-sand-rally-iowa-governor-bid-kentucky-gov-andy-beshear-as-democrats-eye-a-flip/",
-        "publishedAt": "2026-06-07",
-        "relevanceSummary": "Kentucky Governor Andy Beshear, chair of the Democratic Governors Association and a potential 2028 presidential candidate, headlined a fundraiser in Des Moines for congressional candidate Sarah Trone Garriott, who is challenging incumbent Republican Rep. Zach Nunn in IA-03. Democrats note the district, which includes Des Moines, is considered competitive; Republicans still hold a roughly 200,000-voter statewide registration advantage.",
-        "tag": "primary",
-        "id": "news-2026-0610-ia-03-03",
+        "id": "news-ia03-002",
+        "headline": "Democratic state Sen. Sarah Trone Garriott announces run for Rep. Nunn's seat",
+        "sourceName": "Iowa Public Radio",
+        "url": "https://www.iowapublicradio.org/tags/3rd-congressional-district",
+        "publishedAt": "2025-11-01",
+        "relevanceSummary": "State Sen. Sarah Trone Garriott of West Des Moines officially launched her campaign for IA-03. She represents the 14th Senate district (2021–present). Jennifer Konfrst, Iowa House minority leader, endorsed Trone Garriott. The race is rated Lean Republican / competitive by analysts.",
+        "tag": "ballot-access",
         "reviewState": "new"
       },
       {
-        "headline": "Iowa 3rd Congressional District had uncontested primary but 'still a big race' heading to November: Nunn vs. Trone Garriott",
-        "sourceName": "Iowa PBS / YouTube \u2014 This Week in Iowa Politics",
-        "url": "https://www.youtube.com/watch?v=Zw0lEINg4uc",
-        "publishedAt": "2026-06-05",
-        "relevanceSummary": "Post-primary recap coverage confirmed that both IA-03 candidates \u2014 Republican Rep. Zach Nunn and Democrat Sarah Trone Garriott \u2014 ran uncontested in their June 2 primaries, advancing directly to the November 3 general election. Analysts called it 'a race we're going to hear more and more about,' noting Democrats believe they can win the district.",
-        "tag": "primary",
-        "id": "news-2026-0610-ia-03-04",
+        "id": "news-ia03-003",
+        "headline": "New poll shows Rep. Zach Nunn trailing two Democratic candidates in IA-03",
+        "sourceName": "Iowa Starting Line",
+        "url": "https://iowastartingline.com",
+        "publishedAt": "2025-11-29",
+        "relevanceSummary": "A November 2025 poll showed incumbent Rep. Nunn trailing potential Democratic challengers in IA-03, reinforcing the district's status as a top Democratic pickup target. Nunn won by 51.8% in 2024 against Democrat Lanon Baccam.",
+        "tag": "ballot-access",
         "reviewState": "new"
       },
       {
-        "headline": "Analyzing Iowa's primary election results: Nunn-Trone Garriott uncontested in IA-03 as Democratic turnout surges statewide",
-        "sourceName": "Iowa Politics with Laura Belin (Substack)",
-        "url": "https://laurabelin.substack.com/p/analyzing-iowas-primary-election",
-        "publishedAt": "2026-06-04",
-        "relevanceSummary": "Laura Belin's authoritative post-primary analysis confirmed there was no competition on either side in IA-03, with Zach Nunn and Sarah Trone Garriott advancing unopposed. The piece also flagged a new election-law change relevant to the general election: under HF 954 (signed 2025), independent and third-party candidates had to file nominating papers by June 2 \u2014 Libertarian Marco Battaglia qualified for the IA-03 ballot under this new earlier deadline.",
-        "tag": "administration",
-        "id": "news-2026-0610-ia-03-05",
+        "id": "news-ia03-004",
+        "headline": "Iowa recount process gets major overhaul under HF 928",
+        "sourceName": "Iowa Public Radio",
+        "url": "https://www.iowapublicradio.org/state-government-news/2025-04-15/senate-bill-changes-iowa-election-recount-process",
+        "publishedAt": "2025-04-15",
+        "relevanceSummary": "Iowa's new recount law (HF 928, signed June 2025) sets a 0.15% margin threshold for federal race recounts, requires all-precinct machine recounts, and gives the Secretary of State authority to take over a recount if county boards don't follow the law — relevant for any close IA-03 race.",
+        "tag": "rule-change",
         "reviewState": "new"
       },
       {
-        "headline": "Primary results will become official when county boards of supervisors vote to certify local elections \u2014 Iowa SOS posts unofficial returns",
-        "sourceName": "Radio Iowa",
-        "url": "https://www.radioiowa.com/2026/06/04/turek-won-96-counties-lahn-won-21-of-36-counties-in-feenstras-congressional-district/",
-        "publishedAt": "2026-06-04",
-        "relevanceSummary": "Iowa Secretary of State Paul Pate's office published unofficial June 2 primary results showing nearly 20% statewide turnout (411,525 total ballots, up from 356,140 in 2022); results in IA-03's Polk, Dallas, Pottawattamie, and other counties remain unofficial until each county's Board of Supervisors completes its canvass. Radio Iowa reported the certification trigger and noted Democratic primary turnout rose from ~159,000 in 2022 to ~192,000 in 2026.",
-        "tag": "certification",
-        "id": "news-2026-0610-ia-03-06",
+        "id": "news-ia03-005",
+        "headline": "Iowa bans ranked-choice voting, strengthens citizenship checks under HF 954",
+        "sourceName": "Iowa Secretary of State",
+        "url": "https://sos.iowa.gov/news-resources/secretary-pate-praises-new-election-laws-strengthening-iowas-election-integrity",
+        "publishedAt": "2025-06-02",
+        "relevanceSummary": "Gov. Reynolds signed HF 954 banning ranked-choice voting statewide and requiring citizenship verification at voter registration through DOT database cross-checks. The Brennan Center flagged Iowa's new SOS recount-takeover authority as among 2025's most significant election administration laws.",
+        "tag": "rule-change",
         "reviewState": "new"
       }
     ],
-    "SOURCES": [],
-    "ELECTION_EVENTS": [],
-    "RULES": [],
-    "RESOURCES": [],
     "LAST_REFRESH": {
-      "id": "run-2026-06-10T22-00-00-ia-03",
-      "startedAt": "2026-06-10T21:59:30.000Z",
-      "completedAt": "2026-06-10T22:00:00Z",
+      "id": "run-2026-05-27-ia03-initial",
+      "startedAt": "2026-06-02T21:00:00Z",
+      "completedAt": "2026-06-02T21:45:00Z",
       "triggerType": "manual",
-      "sourcesChecked": 9,
-      "updatesCreated": 0,
-      "conflictsCreated": 0,
+      "sourcesChecked": 12,
+      "updatesCreated": 2,
+      "conflictsCreated": 1,
       "errors": [],
-      "summary": "IA-03 weekly refresh on 2026-06-10. Status: Iowa primary (held), 8 days post-primary; general Nov 3. Incumbent: Rep. Zach Nunn (R); opponent: Democrat Sarah Trone Garriott; Libertarian Marco Battaglia qualified. Six new news items added covering the past week (Jun 3-10). IA-03 set for a competitive Nunn vs. Trone Garriott general election; DCCC added Trone Garriott to its Red to Blue program on June 10. New Iowa law HF 954 moved the third-party filing deadline to June 2 for the first time \u2014 Libertarian Marco Battaglia qualified for the IA-03 ballot. County canvasses are running through mid-June. Procedural rules and election-event dates unchanged from the bundle baseline; all news items routed to the human-review queue for editor confirmation."
+      "summary": "Initial build May 27–28, 2026. IA-03 is a new district. Primary June 2 — registration and absentee request deadlines (May 18) are past; general election deadlines are the active forward-looking items. IA-03 Democratic primary uncontested: Trone Garriott (D) vs. Nunn (R) is the November 3 matchup. Key watches: HF 928 recount reform (0.15% threshold, SOS takeover authority); HF 954 citizenship verification — Polk County has Iowa's largest voter rolls. Polk County satellite absentee sites for general election not yet announced."
     },
-    "NEXT_REFRESH_AT": "2026-06-12T22:00:00Z",
+    "NEXT_REFRESH_AT": "2026-06-02T21:00:00Z",
     "WEEKLY_REPORT": {
-      "id": "wr-2026-w24-ia-03",
-      "periodStart": "2026-06-08",
-      "periodEnd": "2026-06-14",
-      "sourcesChecked": 9,
-      "newUpdates": 0,
-      "conflictsCreated": 0,
+      "id": "wr-ia03-2026-w22",
+      "periodStart": "2026-05-21",
+      "periodEnd": "2026-05-27",
+      "sourcesChecked": 12,
+      "newUpdates": 2,
+      "conflictsCreated": 1,
       "conflictsResolved": 0,
       "deadlinesChanged": 0,
       "rulesChanged": 0,
-      "newsItems": 6,
-      "needsReview": 6,
+      "newsItems": 5,
+      "needsReview": 2,
       "sourceErrors": 0,
-      "summary": "IA-03 set for a competitive Nunn vs. Trone Garriott general election; DCCC added Trone Garriott to its Red to Blue program on June 10. New Iowa law HF 954 moved the third-party filing deadline to June 2 for the first time \u2014 Libertarian Marco Battaglia qualified for the IA-03 ballot. County canvasses are running through mid-June.",
-      "generatedAt": "2026-06-10T22:00:00Z"
-    },
-    "districtNumber": "IA-03"
-  },
-  "districtCode": "IA-03"
+      "summary": "Initial build week of May 21–27, 2026. IA-03 dashboard created. Primary pre-reg and absentee request deadlines (May 18) are past; same-day registration available through June 2. IA-03 Democratic primary uncontested — Trone Garriott (D) vs. Nunn (R) is the November general matchup. Key watches: HF 928 recount reform (0.15% threshold for federal races) and HF 954 citizenship cross-check at registration. Polk County satellite absentee sites for the general election not yet confirmed.",
+      "generatedAt": "2026-05-28T04:30:00Z"
+    }
+  }
 }
