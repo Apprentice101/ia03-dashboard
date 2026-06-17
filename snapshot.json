@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-06-16",
-  "updatedAt": "2026-06-16T22:45:00Z",
-  "exportedAt": "2026-06-16T23:35:40.982Z",
+  "dataAsOf": "2026-06-17",
+  "updatedAt": "2026-06-17T22:55:00Z",
+  "exportedAt": "2026-06-17T23:19:34.192Z",
   "districtCode": "IA-03",
   "data": {
     "DISTRICT": {
@@ -231,6 +231,30 @@
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-16",
         "lastVerified": "2026-06-16",
+        "confidence": "medium"
+      },
+      "src-politico-ia03-battaglia": {
+        "id": "src-politico-ia03-battaglia",
+        "name": "Politico — Iowa battleground House race takes bizarre turn (June 15, 2026)",
+        "short": "Politico (June 15, 2026)",
+        "url": "https://www.politico.com/news/2026/06/15/iowa-battleground-rfk-zach-nunn-challenger-00962665",
+        "publisher": "Politico",
+        "sourceType": "journalism",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-06-17",
+        "lastVerified": "2026-06-17",
+        "confidence": "medium"
+      },
+      "src-cbs2-ia03-battaglia": {
+        "id": "src-cbs2-ia03-battaglia",
+        "name": "CBS2 Iowa — Iowa Libertarian says Republicans urged him to drop out (June 16, 2026)",
+        "short": "CBS2 Iowa (June 16, 2026)",
+        "url": "https://cbs2iowa.com/news/local/iowa-libertarian-says-republicans-urged-him-to-drop-out-of-race-zach-nunn-sarah-trone-garriott-elections-robert-f-kennedy-jr-iowa",
+        "publisher": "CBS2 Iowa / KGAN",
+        "sourceType": "journalism",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-06-17",
+        "lastVerified": "2026-06-17",
         "confidence": "medium"
       }
     },
@@ -682,6 +706,38 @@
         "severity": "low",
         "reviewState": "new",
         "visibility": "ready_for_public_review"
+      },
+      {
+        "id": "upd-ia03-004",
+        "title": "Libertarian Marco Battaglia struck from IA-03 general-election ballot",
+        "fieldChanged": "General-election candidate field",
+        "oldValue": "November 3 general-election matchup recorded as Nunn (R) vs. Trone Garriott (D); third-party status not separately tracked.",
+        "newValue": "In mid-June 2026, the Iowa State Objection Panel struck Libertarian candidate Marco Battaglia from the IA-03 general-election ballot over a signature-petition challenge. Battaglia has publicly said he intends to keep campaigning and is weighing a legal challenge. Separately, Politico and CBS2 Iowa reported on June 15–16 that Battaglia alleges Republican operatives, including outreach he attributed to Robert F. Kennedy Jr., urged him to drop out of the race. Rep. Zach Nunn's campaign denies coordinating any such pressure. The Nunn (R) vs. Trone Garriott (D) two-way race remains the operative November 3 matchup pending any successful Battaglia court challenge.",
+        "sourceIds": [
+          "src-politico-ia03-battaglia",
+          "src-cbs2-ia03-battaglia",
+          "src-ipr-ia03"
+        ],
+        "detectedAt": "2026-06-17T22:45:00Z",
+        "severity": "medium",
+        "reviewState": "new",
+        "visibility": "ready_for_public_review"
+      },
+      {
+        "id": "upd-ia03-005",
+        "title": "General-election deadlines re-checked; no changes detected",
+        "fieldChanged": "General election 2026 deadlines",
+        "oldValue": "Deadlines confirmed as of 2026-06-16 bi-weekly refresh.",
+        "newValue": "As of the June 17, 2026 refresh, Iowa Secretary of State and Polk County auditor guidance still list October 19, 2026 (5:00 PM CT) as the pre-registration deadline, October 19, 2026 (5:00 PM CT) as the mailed-absentee-request deadline, October 14 – November 2, 2026 as the in-person early-voting window, and November 3, 2026 at 8:00 PM CT as Election Day and the absentee-ballot receipt deadline. Postmarks do not count.",
+        "sourceIds": [
+          "src-ia-sos-primary",
+          "src-ia-voter-ready",
+          "src-polk-auditor"
+        ],
+        "detectedAt": "2026-06-17T22:50:00Z",
+        "severity": "low",
+        "reviewState": "new",
+        "visibility": "ready_for_public_review"
       }
     ],
     "CONFLICTS": [
@@ -700,6 +756,26 @@
       }
     ],
     "NEWS": [
+      {
+        "id": "news-ia03-009",
+        "headline": "Iowa Libertarian says Republicans urged him to drop out of IA-03 race",
+        "sourceName": "CBS2 Iowa",
+        "url": "https://cbs2iowa.com/news/local/iowa-libertarian-says-republicans-urged-him-to-drop-out-of-race-zach-nunn-sarah-trone-garriott-elections-robert-f-kennedy-jr-iowa",
+        "publishedAt": "2026-06-16",
+        "relevanceSummary": "Marco Battaglia, the Libertarian candidate just struck from the IA-03 ballot by the Iowa State Objection Panel, told CBS2 Iowa that Republican operatives — including outreach he attributed to Robert F. Kennedy Jr. — pressured him to withdraw. Rep. Zach Nunn's campaign denies any coordinated pressure. Battaglia says he intends to keep campaigning and is weighing a legal challenge to the ballot ruling.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-008",
+        "headline": "Battleground Iowa House race takes bizarre turn with Libertarian challenger",
+        "sourceName": "Politico",
+        "url": "https://www.politico.com/news/2026/06/15/iowa-battleground-rfk-zach-nunn-challenger-00962665",
+        "publishedAt": "2026-06-15",
+        "relevanceSummary": "Politico reports on the Iowa State Objection Panel removing Libertarian Marco Battaglia from the IA-03 general-election ballot and on Battaglia's allegation that Republican-aligned figures, including Robert F. Kennedy Jr., pressed him to drop out of the Nunn–Trone Garriott race. Nunn's team denies any pressure campaign. Battaglia says he will continue campaigning and may pursue court action.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
       {
         "id": "news-ia03-007",
         "headline": "2026 Iowa primary election results",
@@ -772,32 +848,32 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-06-16-ia03-weekly",
-      "startedAt": "2026-06-16T22:00:00Z",
-      "completedAt": "2026-06-16T22:45:00Z",
+      "id": "run-2026-06-17-ia03-weekly",
+      "startedAt": "2026-06-17T22:35:00Z",
+      "completedAt": "2026-06-17T22:55:00Z",
       "triggerType": "manual",
-      "sourcesChecked": 13,
-      "updatesCreated": 1,
+      "sourcesChecked": 15,
+      "updatesCreated": 2,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Bi-weekly refresh June 16, 2026. Pivot from primary to general election now complete. June 2 primary is past; IA-03 Democratic primary was uncontested (Trone Garriott presumptive nominee); Nunn-Trone Garriott set for November 3. Structural rules unchanged this cycle — HF 928 (recount 0.15% threshold) and HF 954 (citizenship verification) remain on 'watch' with needsReview:true pending owner statutory review. Polk County satellite absentee sites for the general not yet announced — conflict-ia03-001 remains open with revised review action (re-check before Oct 1, 2026). Added news-ia03-007 (Iowa Public Radio statewide primary results, June 2). All lastVerified bumped to 2026-06-16. No confidence flips — owner verifies before publish."
+      "summary": "June 17, 2026 weekly refresh for IA-03. New development: in mid-June the Iowa State Objection Panel struck Libertarian Marco Battaglia from the November ballot; Battaglia is publicly contesting the decision and alleges (per Politico and CBS2 Iowa, June 15–16) that GOP-aligned operatives, including outreach he attributed to RFK Jr., urged him to withdraw. Nunn campaign denies any coordinated pressure. Nunn (R) vs. Trone Garriott (D) remains the operative November 3 matchup pending any successful court action. Re-checked Iowa SOS and Polk County calendars: general-election deadlines unchanged (Oct. 19 registration, Oct. 19 mail-absentee request, Oct. 14 – Nov. 2 in-person early voting, Nov. 3 Election Day and 8:00 PM CT receipt; postmarks do not count). HF 928 (0.15% federal recount threshold) and HF 954 (DOT/SAVE citizenship cross-check) both still on 'watch' with needsReview:true. conflict-ia03-001 (Polk County satellite absentee sites still unannounced) remains open, next review by Oct 1, 2026. Added news-ia03-008 and news-ia03-009 (Battaglia ballot-strike coverage). No confidence flips — owner verifies before publish."
     },
-    "NEXT_REFRESH_AT": "2026-06-30T22:00:00Z",
+    "NEXT_REFRESH_AT": "2026-06-24T22:35:00Z",
     "WEEKLY_REPORT": {
-      "id": "wr-ia03-2026-w25",
-      "periodStart": "2026-06-08",
-      "periodEnd": "2026-06-14",
-      "sourcesChecked": 13,
-      "newUpdates": 1,
+      "id": "wr-ia03-2026-w26",
+      "periodStart": "2026-06-15",
+      "periodEnd": "2026-06-17",
+      "sourcesChecked": 15,
+      "newUpdates": 2,
       "conflictsCreated": 0,
       "conflictsResolved": 0,
       "deadlinesChanged": 0,
       "rulesChanged": 0,
-      "newsItems": 1,
+      "newsItems": 2,
       "needsReview": 2,
       "sourceErrors": 0,
-      "summary": "Bi-weekly refresh for week of June 8–14, 2026. Dashboard narrative pivoted from pre-primary deadlines to post-primary, general-election focus. June 2 primary is past and was uncontested for both parties in IA-03 — Nunn (R) vs. Trone Garriott (D) is the November matchup. Watch items unchanged: HF 928 recount reform (0.15% federal threshold; SOS takeover authority) and HF 954 citizenship verification both still on 'watch' with needsReview:true. Polk County general-election satellite absentee sites still not announced — conflict-ia03-001 remains open, next review by Oct 1, 2026. Added news-ia03-007 (Iowa Public Radio statewide primary results, June 2). No confidence flips — all rules await owner verification before publish.",
-      "generatedAt": "2026-06-16T22:30:00Z"
+      "summary": "Weekly refresh for June 15–17, 2026. Headline development for IA-03 this cycle: the Iowa State Objection Panel struck Libertarian Marco Battaglia from the November ballot; Battaglia is publicly contesting and alleges Republican-aligned pressure (including outreach attributed to RFK Jr.) urging him to withdraw — per Politico and CBS2 Iowa, June 15–16. Nunn campaign denies any coordinated pressure. Nunn (R) vs. Trone Garriott (D) remains the operative two-way matchup pending court action. Re-checked Iowa SOS and Polk County calendars — general-election deadlines unchanged (Oct. 19 registration, Oct. 19 mail-absentee request, Oct. 14 – Nov. 2 early voting, Nov. 3 Election Day and 8:00 PM CT receipt). Watch items unchanged: HF 928 recount reform (0.15% federal threshold; SOS takeover authority) and HF 954 citizenship verification both still on 'watch' with needsReview:true. Polk County satellite absentee sites still not announced — conflict-ia03-001 remains open, next review by Oct 1, 2026. Added news-ia03-008 (Politico) and news-ia03-009 (CBS2 Iowa) for Battaglia coverage. No confidence flips — all rules await owner verification before publish.",
+      "generatedAt": "2026-06-17T22:55:00Z"
     }
   }
 }
