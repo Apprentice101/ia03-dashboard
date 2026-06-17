@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-06-17",
   "updatedAt": "2026-06-17T22:55:00Z",
-  "exportedAt": "2026-06-17T23:19:34.192Z",
+  "exportedAt": "2026-06-17T23:56:52.424Z",
   "districtCode": "IA-03",
   "data": {
     "DISTRICT": {
@@ -135,6 +135,18 @@
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
         "lastVerified": "2026-06-16",
+        "confidence": "high"
+      },
+      "src-ia-sos-candidates-guide-2026": {
+        "id": "src-ia-sos-candidates-guide-2026",
+        "name": "Iowa SOS — 2026 Candidate's Guide to the General Election (Ballot Curing, p. 22)",
+        "short": "IA SOS Candidate's Guide 2026",
+        "url": "https://sos.iowa.gov/sites/default/files/2026-02/2026%20General%20Candidate's%20Guide.pdf",
+        "publisher": "Iowa Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-06-17",
+        "lastVerified": "2026-06-17",
         "confidence": "high"
       },
       "src-ia-hf928": {
@@ -374,6 +386,20 @@
         ],
         "confidence": "high",
         "lastVerified": "2026-06-16"
+      },
+      {
+        "id": "ev-general-cure-deadline",
+        "electionType": "general",
+        "milestone": "Last day for voters to fix incomplete affidavit envelopes",
+        "date": "2026-11-03",
+        "significance": "Voters have until the time polls close at 8:00 p.m. CT to fix incomplete affidavit envelopes at the county auditor's office.",
+        "governingAuthority": "Iowa Secretary of State",
+        "status": "confirmed",
+        "sourceIds": [
+          "src-ia-sos-candidates-guide-2026"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-06-17"
       },
       {
         "id": "ev-closed-primary-watch",
