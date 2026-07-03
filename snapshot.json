@@ -1,8 +1,8 @@
 {
   "version": "1",
   "dataAsOf": "2026-07-03",
-  "updatedAt": "2026-07-03T00:25:42.714Z",
-  "exportedAt": "2026-07-03T00:37:07.471Z",
+  "updatedAt": "2026-07-03T01:30:30.207Z",
+  "exportedAt": "2026-07-03T01:42:37.646Z",
   "districtCode": "ia-03",
   "data": {
     "DISTRICT": {
@@ -194,7 +194,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-06-16",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-dallas-auditor": {
@@ -875,16 +875,16 @@
     ],
     "LAST_REFRESH": {
       "id": "run-2026-07-03-ia03-auto",
-      "startedAt": "2026-07-03T00:24:48.079Z",
-      "completedAt": "2026-07-03T00:25:42.714Z",
+      "startedAt": "2026-07-03T01:29:35.808Z",
+      "completedAt": "2026-07-03T01:30:30.207Z",
       "triggerType": "scheduled",
       "sourcesChecked": 17,
       "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-03 for IA-03. Sources checked: 17. LLM verifications: 18. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-03 for IA-03. Sources checked: 17. LLM verifications: 18. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-10T00:25:42.714Z",
+    "NEXT_REFRESH_AT": "2026-07-10T01:30:30.207Z",
     "WEEKLY_REPORT": {
       "id": "wr-ia03-2026-w26",
       "periodStart": "2026-06-15",
