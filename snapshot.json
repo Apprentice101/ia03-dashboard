@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-03",
-  "updatedAt": "2026-07-03T01:30:30.207Z",
-  "exportedAt": "2026-07-04T00:39:37.234Z",
+  "dataAsOf": "2026-07-08",
+  "updatedAt": "2026-07-08T06:23:45.479Z",
+  "exportedAt": "2026-07-08T06:28:25.375Z",
   "districtCode": "ia-03",
   "data": {
     "DISTRICT": {
@@ -158,7 +158,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-07-03",
+        "lastVerified": "2026-07-08",
         "confidence": "high"
       },
       "src-ia-hf954": {
@@ -874,17 +874,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-03-ia03-auto",
-      "startedAt": "2026-07-03T01:29:35.808Z",
-      "completedAt": "2026-07-03T01:30:30.207Z",
+      "id": "run-2026-07-08-ia03-auto",
+      "startedAt": "2026-07-08T06:23:37.199Z",
+      "completedAt": "2026-07-08T06:23:45.479Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 17,
+      "sourcesChecked": 23,
       "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-03 for IA-03. Sources checked: 17. LLM verifications: 18. 1 lastVerified bump on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-08 for IA-03. Sources checked: 23. LLM verifications: 24. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-10T01:30:30.207Z",
+    "NEXT_REFRESH_AT": "2026-07-15T06:23:45.479Z",
     "WEEKLY_REPORT": {
       "id": "wr-ia03-2026-w26",
       "periodStart": "2026-06-15",
