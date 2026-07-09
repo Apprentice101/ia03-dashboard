@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-07-08",
   "updatedAt": "2026-07-08T19:36:55.182Z",
-  "exportedAt": "2026-07-08T20:35:17.765Z",
+  "exportedAt": "2026-07-09T17:03:56.691Z",
   "districtCode": "ia-03",
   "data": {
     "DISTRICT": {
@@ -609,24 +609,64 @@
     ],
     "RESOURCES": [
       {
-        "id": "res-ia03-voter-ready",
-        "label": "Voter Ready Iowa — Official voter guide",
+        "id": "res-register",
+        "label": "Register to vote",
         "description": "Iowa Secretary of State's official voter guide with registration, ID rules, absentee voting, and 2026 election dates.",
         "url": "https://voterready.iowa.gov",
         "governingAuthority": "Iowa Secretary of State",
         "sourceType": "official-state",
         "sourceId": "src-ia-voter-ready",
-        "lastVerified": "2026-06-16"
+        "lastVerified": "2026-07-08"
       },
       {
-        "id": "res-ia03-register",
-        "label": "Register to vote in Iowa",
-        "description": "Online voter registration through the Iowa DOT portal, or download the paper form for county auditor submission.",
-        "url": "https://sos.iowa.gov/voters/voter-registration",
+        "id": "res-locations",
+        "label": "Find voting locations",
+        "description": "Iowa polling-place lookup by address.",
+        "url": "https://apps.sos.iowa.gov/elections/voterreg/pollingplace/search.aspx",
         "governingAuthority": "Iowa Secretary of State",
         "sourceType": "official-state",
-        "sourceId": "src-ia-sos-register",
-        "lastVerified": "2026-06-16"
+        "sourceId": "src-ia-sos",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-ballot-box",
+        "label": "Find ballot boxes",
+        "description": "Official instructions for absentee voting and returning ballots to the Polk County Election Office.",
+        "url": "https://www.polkcountyiowa.gov/county-auditor/election/absentee-voting/",
+        "governingAuthority": "Polk County Election Office",
+        "sourceType": "official-county",
+        "sourceId": "src-ia03-county",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-check-reg",
+        "label": "Check registration status",
+        "description": "Confirm your Iowa voter registration status.",
+        "url": "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx",
+        "governingAuthority": "Iowa Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ia-sos",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-track",
+        "label": "Track your ballot",
+        "description": "Track an Iowa absentee ballot.",
+        "url": "https://sos.iowa.gov/track-your-absentee-ballot",
+        "governingAuthority": "Iowa Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ia-sos",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-results",
+        "label": "Election results",
+        "description": "Official election results and historical election statistics from the Iowa Secretary of State.",
+        "url": "https://sos.iowa.gov/iowans/election-results-statistics",
+        "governingAuthority": "Iowa Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ia-sos",
+        "lastVerified": "2026-07-08"
       },
       {
         "id": "res-ia03-absentee",
@@ -639,26 +679,6 @@
         "lastVerified": "2026-06-16"
       },
       {
-        "id": "res-ia03-primary-dates",
-        "label": "2026 Iowa election dates & deadlines",
-        "description": "Official Iowa SOS calendar — primary (June 2, past) and November 3 general election deadlines, registration windows, and absentee windows.",
-        "url": "https://sos.iowa.gov/primary-election",
-        "governingAuthority": "Iowa Secretary of State",
-        "sourceType": "official-state",
-        "sourceId": "src-ia-sos-primary",
-        "lastVerified": "2026-06-16"
-      },
-      {
-        "id": "res-ia03-polk",
-        "label": "Polk County Auditor — Elections (Des Moines)",
-        "description": "Polk County election information including polling places, absentee ballot requests, and voter registration for Des Moines and surrounding communities.",
-        "url": "https://www.polkcountyiowa.gov/auditor/elections/",
-        "governingAuthority": "Polk County Auditor",
-        "sourceType": "official-county",
-        "sourceId": "src-polk-auditor",
-        "lastVerified": "2026-06-16"
-      },
-      {
         "id": "res-ia03-dallas",
         "label": "Dallas County Auditor — Elections (Adel/West Des Moines)",
         "description": "Dallas County election information for western suburban Des Moines including West Des Moines, Waukee, and Urbandale.",
@@ -666,16 +686,6 @@
         "governingAuthority": "Dallas County Auditor",
         "sourceType": "official-county",
         "sourceId": "src-dallas-auditor",
-        "lastVerified": "2026-06-16"
-      },
-      {
-        "id": "res-ia03-statutes",
-        "label": "Iowa Code — Title IX (Elections)",
-        "description": "Statutory text for Iowa election law — registration, absentee voting, canvass, and recount procedures.",
-        "url": "https://www.legis.iowa.gov/law/iowaCode/chapters?title=IX",
-        "governingAuthority": "Iowa Legislature",
-        "sourceType": "statutory",
-        "sourceId": "src-ia-statutes",
         "lastVerified": "2026-06-16"
       },
       {
