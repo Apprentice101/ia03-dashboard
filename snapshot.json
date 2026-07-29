@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-22",
-  "updatedAt": "2026-07-22T06:33:28.563Z",
-  "exportedAt": "2026-07-22T21:16:11.435Z",
+  "dataAsOf": "2026-07-29",
+  "updatedAt": "2026-07-29T06:36:54.222Z",
+  "exportedAt": "2026-07-29T06:54:30.917Z",
   "districtCode": "ia-03",
   "data": {
     "DISTRICT": {
@@ -98,7 +98,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-ia-sos-absentee": {
@@ -110,7 +110,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-ia-voter-ready": {
@@ -122,7 +122,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-ia-statutes": {
@@ -158,7 +158,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-ia-hf954": {
@@ -881,20 +881,30 @@
         "relevanceSummary": "Gov. Reynolds signed HF 954 banning ranked-choice voting statewide and requiring citizenship verification at voter registration through DOT database cross-checks. The Brennan Center flagged Iowa's new SOS recount-takeover authority as among 2025's most significant election administration laws.",
         "tag": "rule-change",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-047900s",
+        "headline": "Nunn, Trone Garriott, and Battaglia are running in Iowa's 3rd District, decided by fewer than four points in each of the last two elections",
+        "sourceName": "Ballotpedia News",
+        "url": "https://news.ballotpedia.org/2026/07/23/nunn-trone-garriott-and-battaglia-are-running-in-iowas-3rd-district-decided-by-fewer-than-four-points-in-each-of-the-last-two-elections/",
+        "publishedAt": "2026-07-23",
+        "relevanceSummary": "Ballotpedia details the current field of candidates in IA-03—Republican incumbent Zach Nunn, Democrat Trone Garriott, and Libertarian Marco Battaglia—and notes the November 3, 2026 general election, giving voters clear information about who is qualified and expected to appear on their congressional ballot.[1]",
+        "tag": "candidates",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-22-ia03-auto",
-      "startedAt": "2026-07-22T06:32:32.051Z",
-      "completedAt": "2026-07-22T06:33:28.563Z",
+      "id": "run-2026-07-29-ia03-auto",
+      "startedAt": "2026-07-29T06:35:49.604Z",
+      "completedAt": "2026-07-29T06:36:54.222Z",
       "triggerType": "scheduled",
       "sourcesChecked": 15,
-      "updatesCreated": 0,
+      "updatesCreated": 1,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-22 for IA-03. Sources checked: 15. LLM verifications: 16. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-29 for IA-03. Sources checked: 15. LLM verifications: 16. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-29T06:33:28.563Z",
+    "NEXT_REFRESH_AT": "2026-08-05T06:36:54.222Z",
     "WEEKLY_REPORT": {
       "id": "wr-ia03-2026-w26",
       "periodStart": "2026-06-15",
