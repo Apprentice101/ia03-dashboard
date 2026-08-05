@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-29",
-  "updatedAt": "2026-07-29T06:36:54.222Z",
-  "exportedAt": "2026-07-29T06:54:30.917Z",
+  "dataAsOf": "2026-08-05",
+  "updatedAt": "2026-08-05T06:30:39.565Z",
+  "exportedAt": "2026-08-05T06:48:19.443Z",
   "districtCode": "ia-03",
   "data": {
     "DISTRICT": {
@@ -98,7 +98,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "high"
       },
       "src-ia-sos-absentee": {
@@ -110,7 +110,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "high"
       },
       "src-ia-voter-ready": {
@@ -122,7 +122,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "high"
       },
       "src-ia-statutes": {
@@ -158,7 +158,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "high"
       },
       "src-ia-hf954": {
@@ -891,20 +891,40 @@
         "relevanceSummary": "Ballotpedia details the current field of candidates in IA-03—Republican incumbent Zach Nunn, Democrat Trone Garriott, and Libertarian Marco Battaglia—and notes the November 3, 2026 general election, giving voters clear information about who is qualified and expected to appear on their congressional ballot.[1]",
         "tag": "candidates",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-05wljxv",
+        "headline": "Republican National Committee files to restore signature-verified absentee ballots in Iowa",
+        "sourceName": "KCRG",
+        "url": "https://www.kcrg.com/2026/07/30/republican-national-committee-files-restore-signature-verified-absentee-ballots-iowa/",
+        "publishedAt": "2026-07-30",
+        "relevanceSummary": "The Republican National Committee and Iowa GOP are supporting legal efforts to reinstate signature verification requirements for absentee ballots in Iowa, which could change how mail-in ballots are validated for all Iowa voters, including those in IA-03.[7]",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0i7s6oe",
+        "headline": "Elections - Black Hawk County",
+        "sourceName": "Black Hawk County, Iowa",
+        "url": "https://www.blackhawkcounty.iowa.gov/190/Elections",
+        "publishedAt": "2026-07-28",
+        "relevanceSummary": "Black Hawk County’s elections page details current voter registration options, absentee ballot procedures, polling locations, and election administration information that apply directly to county voters and illustrate county-level implementation of Iowa’s election rules.[6]",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-29-ia03-auto",
-      "startedAt": "2026-07-29T06:35:49.604Z",
-      "completedAt": "2026-07-29T06:36:54.222Z",
+      "id": "run-2026-08-05-ia03-auto",
+      "startedAt": "2026-08-05T06:29:32.984Z",
+      "completedAt": "2026-08-05T06:30:39.565Z",
       "triggerType": "scheduled",
       "sourcesChecked": 15,
-      "updatesCreated": 1,
+      "updatesCreated": 2,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-29 for IA-03. Sources checked: 15. LLM verifications: 16. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-05 for IA-03. Sources checked: 15. LLM verifications: 16. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-05T06:36:54.222Z",
+    "NEXT_REFRESH_AT": "2026-08-12T06:30:39.565Z",
     "WEEKLY_REPORT": {
       "id": "wr-ia03-2026-w26",
       "periodStart": "2026-06-15",
