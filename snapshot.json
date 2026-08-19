@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-12",
-  "updatedAt": "2026-08-12T05:32:47.948Z",
-  "exportedAt": "2026-08-12T05:47:38.087Z",
+  "dataAsOf": "2026-08-19",
+  "updatedAt": "2026-08-19T04:44:40.703Z",
+  "exportedAt": "2026-08-19T05:07:55.952Z",
   "districtCode": "ia-03",
   "data": {
     "DISTRICT": {
@@ -98,7 +98,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-ia-sos-absentee": {
@@ -110,7 +110,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-ia-voter-ready": {
@@ -122,7 +122,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-ia-statutes": {
@@ -158,7 +158,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-ia-hf954": {
@@ -911,20 +911,100 @@
         "relevanceSummary": "Black Hawk County’s elections page details current voter registration options, absentee ballot procedures, polling locations, and election administration information that apply directly to county voters and illustrate county-level implementation of Iowa’s election rules.[6]",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0vhh2dv",
+        "headline": "Pate backs absentee voting during Register's Political Soapbox",
+        "sourceName": "USA Today / Des Moines Register",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/08/17/pate-expresses-confidence-in-absentee-voting-during-register-soapbox/91248045007/",
+        "publishedAt": "2026-08-17",
+        "relevanceSummary": "This piece quotes Iowa Secretary of State Paul Pate defending the state’s voter ID laws, paper ballots, and online voter registration as tools that increase participation and election security[2]. While it does not announce specific new rules, it provides statewide voter-info context on absentee voting, voter-ID, and registration procedures that apply to IA-03 voters.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0dd763h",
+        "headline": "Secretary of state candidate Ryan Peterman calls for election changes",
+        "sourceName": "Yahoo News",
+        "url": "https://www.yahoo.com/news/politics/articles/secretary-state-candidate-ryan-peterman-005004565.html",
+        "publishedAt": "2026-08-16",
+        "relevanceSummary": "The article details how Democratic secretary of state candidate Ryan Peterman criticizes recent Iowa laws that shortened the early voting period to 20 days and removed the option for voters to confirm identity through another voter’s attestation, and says he would seek to restore attestation[6]. These statewide changes affect early voting windows and voter-ID procedures for all Iowa voters, including those in IA-03.",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0fl1c1j",
+        "headline": "Story County: 2026 Ballard School District Special Election (09/08/2026)",
+        "sourceName": "Story County, Iowa Auditor's Office",
+        "url": "https://www.storycountyiowa.gov/1332/2026-Ballard-Special-Election-09082026",
+        "publishedAt": "2026-08-09",
+        "relevanceSummary": "The Story County Auditor outlines voter registration deadlines, Election Day registration requirements, absentee ballot request timelines, and rules for returning ballots for the September 8, 2026 Ballard School District special election[5]. These county-level procedures illustrate current Iowa rules on voter registration, mail ballots, and in-person voting that are relevant precedents for IA-03 voters, especially those in Story County.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0i0jubj",
+        "headline": "Post-election audit of Lone Tree Community School District special election confirms results",
+        "sourceName": "Johnson County, Iowa Auditor's Office",
+        "url": "https://www.johnsoncountyiowa.gov/news/auditor/2026-08-07/post-election-audit-lone-tree-community-school-district-special-election",
+        "publishedAt": "2026-08-07",
+        "relevanceSummary": "This announcement describes a post-election audit of the Lone Tree Community School District special election and notes that the Iowa Secretary of State randomly selects one precinct in each county for manual audits to verify election results[12]. It highlights statewide election security and audit procedures that also apply to counties and voters in IA-03.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-048mdkf",
+        "headline": "August 4, 2026 Lone Tree Community School District Special Election",
+        "sourceName": "Johnson County, Iowa Auditor's Office",
+        "url": "https://www.johnsoncountyiowa.gov/august-4-2026-lone-tree-community-school-district-special-election",
+        "publishedAt": "2026-08-04",
+        "relevanceSummary": "Johnson County’s election notice explains candidate filing changes (now with the Auditor’s Office), early voting dates, vote-by-mail deadlines, and the single polling location plus hours for the Lone Tree school special election[8]. This is a concrete example of how Iowa counties are administering early voting, mail ballots, and polling locations under current statewide rules, which is procedurally relevant for IA-03 voters.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0io59dc",
+        "headline": "The Iowa Republican Party is suing to lift the injunction that has blocked signature verification on Iowa absentee ballots",
+        "sourceName": "KBUR",
+        "url": "https://www.kbur.com/2026/08/03/the-iowa-republican-party-is-suing-to-lift-the-injunction-that-has-blocked-signature-verification-on-iowa-absentee-ballots/",
+        "publishedAt": "2026-08-03",
+        "relevanceSummary": "This story covers a lawsuit by the Iowa Republican Party seeking to lift a court injunction that currently blocks signature verification for absentee ballots in Iowa[3]. The outcome could immediately change absentee ballot procedures for all Iowa voters, including those in IA-03, by adding a new verification step and potential reason for rejection.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0vbuget",
+        "headline": "GOP lawsuit could reinstate Iowa absentee ballot signature checks",
+        "sourceName": "KCRG",
+        "url": "https://www.kcrg.com/2026/08/01/gop-lawsuit-could-reinstate-iowa-absentee-ballot-signature-checks/",
+        "publishedAt": "2026-08-01",
+        "relevanceSummary": "KCRG reports that a GOP lawsuit could bring back signature checks for absentee ballots, describing how voters whose signatures are not validated would need to submit a new ballot or update their signature on file[15]. This provides practical information on potential signature-cure procedures IA-03 voters may face if they vote by mail.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0jllogs",
+        "headline": "Iowa GOP pushes to restore absentee ballot signature checks",
+        "sourceName": "KCJJ 1630",
+        "url": "https://www.1630kcjj.com/2026/08/01/iowa-gop-pushes-to-restore-absentee-ballot-signature-checks/",
+        "publishedAt": "2026-08-01",
+        "relevanceSummary": "The article explains that Iowa Republicans are pushing legislation to restore signature verification for absentee ballots, which would allow county auditors statewide to reject mail ballots if they believe the signature does not match the voter’s record[1]. This is a potential statewide rule change that would directly affect how IA-03 voters must complete and sign mail-in ballots and how their ballots might be challenged.",
+        "tag": "litigation",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-12-ia03-auto",
-      "startedAt": "2026-08-12T05:31:56.892Z",
-      "completedAt": "2026-08-12T05:32:47.948Z",
+      "id": "run-2026-08-19-ia03-auto",
+      "startedAt": "2026-08-19T04:42:49.254Z",
+      "completedAt": "2026-08-19T04:44:40.703Z",
       "triggerType": "scheduled",
       "sourcesChecked": 14,
-      "updatesCreated": 0,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-12 for IA-03. Sources checked: 14. LLM verifications: 15. 5 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-19 for IA-03. Sources checked: 14. LLM verifications: 15. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-19T05:32:47.948Z",
+    "NEXT_REFRESH_AT": "2026-08-26T04:44:40.703Z",
     "WEEKLY_REPORT": {
       "id": "wr-ia03-2026-w26",
       "periodStart": "2026-06-15",
