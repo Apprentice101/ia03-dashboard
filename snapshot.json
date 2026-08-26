@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-19",
-  "updatedAt": "2026-08-19T04:44:40.703Z",
-  "exportedAt": "2026-08-19T05:07:55.952Z",
+  "dataAsOf": "2026-08-26",
+  "updatedAt": "2026-08-26T04:49:08.455Z",
+  "exportedAt": "2026-08-26T05:15:49.783Z",
   "districtCode": "ia-03",
   "data": {
     "DISTRICT": {
@@ -98,7 +98,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high"
       },
       "src-ia-sos-absentee": {
@@ -110,7 +110,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high"
       },
       "src-ia-voter-ready": {
@@ -122,7 +122,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high"
       },
       "src-ia-statutes": {
@@ -158,7 +158,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high"
       },
       "src-ia-hf954": {
@@ -991,20 +991,100 @@
         "relevanceSummary": "The article explains that Iowa Republicans are pushing legislation to restore signature verification for absentee ballots, which would allow county auditors statewide to reject mail ballots if they believe the signature does not match the voter’s record[1]. This is a potential statewide rule change that would directly affect how IA-03 voters must complete and sign mail-in ballots and how their ballots might be challenged.",
         "tag": "litigation",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0edo1jx",
+        "headline": "Iowa voters can now request absentee ballots for Nov. 3 election",
+        "sourceName": "KWQC",
+        "url": "https://www.kwqc.com/2026/08/25/iowa-voters-can-now-request-absentee-ballots-nov-3-election/",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "KWQC reports that Iowa voters statewide, including IA-03, can now request absentee ballots for the Nov. 3 general election, noting that ballots will begin mailing Oct. 14 and that completed request forms must be submitted to local election authorities by 5 p.m. Oct. 19, reinforcing key deadlines for mail voting logistics.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0p3ro3a",
+        "headline": "Absentee ballot requests begin in Iowa for Nov. 3 election",
+        "sourceName": "KCRG",
+        "url": "https://www.kcrg.com/2026/08/25/absentee-ballot-requests-begin-iowa-nov-3-election/",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "This article explains that all Iowa voters, including those in IA-03, may begin submitting absentee ballot request forms 70 days before the Nov. 3 general election (Aug. 25), and that requests must reach county auditors by 5 p.m. Oct. 19; it also details required identity information (Iowa driver’s license/non-operator ID or voter ID PIN) and the return deadline for ballots (by 8 p.m. Election Day).",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-03wt274",
+        "headline": "Let's Vote",
+        "sourceName": "Iowa Democratic Veterans' Caucus",
+        "url": "https://www.iowademocraticveterans.org/lets-vote/",
+        "publishedAt": "2026-08-24",
+        "relevanceSummary": "This civic resource clarifies that Iowa auditors may accept absentee ballot request forms only between 10 weeks and 15 days before Election Day and that forms received before Aug. 25 must be returned as required by law, reinforcing for IA-03 voters the legal window in which they can successfully submit request forms.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0a2byb4",
+        "headline": "2026 General Election (November 3, 2026) – Elections",
+        "sourceName": "Black Hawk County Elections (Iowa)",
+        "url": "https://blackhawkcountyelections.iowa.gov/elections/info/2026_general_election_2026_11_03/",
+        "publishedAt": "2026-08-22",
+        "relevanceSummary": "Black Hawk County’s election information page lists key statewide absentee voting dates for the Nov. 3 general election—first day to submit absentee requests (Aug. 25), first day ballots are mailed (Oct. 14), deadline to request a mailed ballot (5 p.m. Oct. 19), and in‑person absentee closing (Nov. 2)—providing a concrete example of how Iowa’s timelines and procedures will operate for IA-03 voters in their own counties.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0jlvojj",
+        "headline": "Press Release: Absentee Ballot Requests may be filed for the upcoming 2026 General Election",
+        "sourceName": "Winnebago County Auditor (Iowa)",
+        "url": "https://www.winnebagocountyiowa.gov/news/press_release_absentee_ballot_requests_may_be_filed_for_the_upcoming_2026_general_election/",
+        "publishedAt": "2026-08-21",
+        "relevanceSummary": "This county press release outlines statewide Iowa rules for absentee ballot requests and returns, including the Oct. 19, 5 p.m. deadline to request a mailed ballot and the requirement to provide name, address, date of birth, and Iowa driver’s license/non-operator ID or 4‑digit voter PIN; these same statutory requirements apply to IA-03 voters and illustrate how county auditors implement them.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0yzpr8b",
+        "headline": "How to vote by mail or vote absentee in Iowa",
+        "sourceName": "Iowa Starting Line",
+        "url": "https://iowastartingline.com/news/elections/absentee-ballot-and-how-to-get/",
+        "publishedAt": "2026-08-17",
+        "relevanceSummary": "This statewide explainer walks Iowa voters through downloading the official absentee ballot request form, mailing it to their county auditor by the 15‑day‑before‑election deadline (Oct. 19, 2026), and returning their completed ballot so it is received by 8 p.m. on Election Day, giving IA-03 voters step‑by‑step guidance on mail voting procedures and deadlines.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0aljr0x",
+        "headline": "Iowa poll workers wanted for November general election",
+        "sourceName": "Radio Iowa",
+        "url": "https://www.radioiowa.com/2026/08/11/iowa-poll-workers-wanted-for-november-general-election/",
+        "publishedAt": "2026-08-11",
+        "relevanceSummary": "This statewide report notes that Iowa election officials are recruiting poll workers and offering training sessions, including hands‑on work with electronic poll books, indicating how counties—including those in IA-03—are preparing staffing and procedures for in‑person voting in the November general election.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0mw3c8y",
+        "headline": "Iowa Voter Guide 2026",
+        "sourceName": "Iowa Voter Guide",
+        "url": "https://iavoterguide.org/",
+        "publishedAt": "2026-08-06",
+        "relevanceSummary": "The Iowa Voter Guide aggregates practical voter information such as how to request an absentee ballot, check election deadlines, and locate drop‑off sites, serving as a centralized voter‑resource hub that IA-03 voters can use to navigate statewide procedures for registration and absentee voting.",
+        "tag": "voter-resource",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-19-ia03-auto",
-      "startedAt": "2026-08-19T04:42:49.254Z",
-      "completedAt": "2026-08-19T04:44:40.703Z",
+      "id": "run-2026-08-26-ia03-auto",
+      "startedAt": "2026-08-26T04:46:56.198Z",
+      "completedAt": "2026-08-26T04:49:08.455Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 14,
+      "sourcesChecked": 15,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-19 for IA-03. Sources checked: 14. LLM verifications: 15. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-26 for IA-03. Sources checked: 15. LLM verifications: 17. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-26T04:44:40.703Z",
+    "NEXT_REFRESH_AT": "2026-09-02T04:49:08.455Z",
     "WEEKLY_REPORT": {
       "id": "wr-ia03-2026-w26",
       "periodStart": "2026-06-15",
