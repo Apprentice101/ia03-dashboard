@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-26",
-  "updatedAt": "2026-08-26T04:49:08.455Z",
-  "exportedAt": "2026-08-26T05:15:49.783Z",
+  "dataAsOf": "2026-09-02",
+  "updatedAt": "2026-09-02T08:35:33.068Z",
+  "exportedAt": "2026-09-02T09:09:44.059Z",
   "districtCode": "ia-03",
   "data": {
     "DISTRICT": {
@@ -98,7 +98,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-ia-sos-absentee": {
@@ -110,7 +110,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-ia-voter-ready": {
@@ -122,7 +122,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-ia-statutes": {
@@ -134,7 +134,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-06-16",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-ia-sos-candidates-guide-2026": {
@@ -158,7 +158,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-ia-hf954": {
@@ -1071,20 +1071,100 @@
         "relevanceSummary": "The Iowa Voter Guide aggregates practical voter information such as how to request an absentee ballot, check election deadlines, and locate drop‑off sites, serving as a centralized voter‑resource hub that IA-03 voters can use to navigate statewide procedures for registration and absentee voting.",
         "tag": "voter-resource",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0qdbuzp",
+        "headline": "Federal judge temporarily blocks Trump administration's attempt to restrict mail-in ballot delivery",
+        "sourceName": "ABC News",
+        "url": "https://abcnews.com/Politics/federal-judge-temporarily-blocks-trump-administrations-attempt-restrict/story?id=136021374",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "Describes a federal court’s temporary block on efforts to further restrict USPS mail‑in ballot delivery while allowing new verification rules that require states, including Iowa, to link each mail ballot to a voter via a unique barcode and upload that data to a federal portal, informing IA‑03 voters about evolving mail ballot handling procedures.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-05g46gn",
+        "headline": "USPS Ballot Mail Rule: Overview and Potential Impact",
+        "sourceName": "Congressional Research Service",
+        "url": "https://www.congress.gov/crs-product/IF13297",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "Explains new nationwide USPS ballot mail design and tracking standards that require Iowa election officials to use unique barcodes, provide a voter participation list through a federal ballot mail portal, and have ballot batches verified before mailing, affecting how absentee and mail‑in ballots are processed and delivered to IA‑03 voters.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0r6nnhl",
+        "headline": "Notice of Special Election - Tri-County School",
+        "sourceName": "Poweshiek County, Iowa",
+        "url": "https://poweshiekcountyiowa.gov/news/notice_of_special_election_tricounty_school/",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "Outlines polling-place voter ID requirements and Election Day registration procedures for a local special election, including approved identification, proof-of-residence rules, provisional ballots, and attester options; these county-level rules reflect statewide Iowa procedures that also govern IA‑03 voters’ identification and registration at the polls.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-05xfxjz",
+        "headline": "Judge rules two Iowa Libertarians can't be on fall ballot",
+        "sourceName": "Radio Iowa",
+        "url": "https://www.radioiowa.com/2026/08/28/judge-rules-two-iowa-libertarians-cant-be-on-fall-ballot/",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "Summarizes the same ballot-access ruling, noting that certain Libertarian candidates failed to qualify for the fall ballot under Iowa law, which indirectly confirms for IA‑03 voters which third‑party congressional and statewide candidates will, and will not, appear on their November general election ballot.",
+        "tag": "candidates",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0lz9e06",
+        "headline": "Judge says Iowa Libertarians can't replace governor and 3rd Congressional District candidates on ballot",
+        "sourceName": "Des Moines Register",
+        "url": "https://www.desmoinesregister.com/story/news/politics/elections/2026/08/27/libertarian-party-lawsuit-iowa-governor-congress-candidates-nominees/91481453007/",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "Details a court decision that Libertarians did not follow Iowa’s legal procedures for filling ballot vacancies when seeking to replace their governor and IA‑03 congressional nominees, explaining that the governor candidate is ineligible without a running mate and reinforcing that the party’s 3rd District candidate will not be listed on the general election ballot.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-00oszhz",
+        "headline": "Judge rules Iowa Libertarians did not correctly replace 3rd District candidate",
+        "sourceName": "The Des Moines Register (via regional reprint)",
+        "url": "https://dbrnews.com/news/state-regional/iowa/article_f067fb9c-cad1-50f7-8879-b10830ce3881.html",
+        "publishedAt": "2026-08-27",
+        "relevanceSummary": "Reports a Polk County judge’s ruling that the Libertarian Party of Iowa failed to follow state procedures when attempting to replace its 3rd Congressional District candidate, meaning Libertarian nominees for governor and IA‑03 will not appear on the November ballot, clarifying candidate qualification and ballot-access status for IA‑03 voters.",
+        "tag": "candidates",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0bcv85b",
+        "headline": "Voters can now request absentee ballots for the November general election",
+        "sourceName": "Little Village",
+        "url": "https://littlevillagemag.com/voters-can-now-request-absentee-ballots-2026/",
+        "publishedAt": "2026-08-26",
+        "relevanceSummary": "Provides statewide Iowa guidance for requesting absentee ballots, including the requirement to supply a voter verification number (driver’s license, non-operator’s ID, or voter ID card PIN), the Oct. 19, 5 p.m. deadline for county auditors to receive request forms, and notes that ballots will be mailed starting Oct. 14, the same day early in‑person voting begins.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0q1wvly",
+        "headline": "Absentee ballot requests begin in Iowa for Nov. 3 election",
+        "sourceName": "Iowa Public Radio",
+        "url": "https://www.iowapublicradio.org/political-news/2026-08-26/absentee-ballot-requests-begin-in-iowa-for-nov-3-election",
+        "publishedAt": "2026-08-26",
+        "relevanceSummary": "Explains that Iowa voters, including those in IA-03, can now request absentee ballots for the November 2026 general election, outlines the Oct. 19, 5 p.m. deadline to submit request forms, and details required voter verification information such as Iowa driver’s license, non-operator ID, or voter ID PIN for mail voting and return deadlines for ballots.",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-26-ia03-auto",
-      "startedAt": "2026-08-26T04:46:56.198Z",
-      "completedAt": "2026-08-26T04:49:08.455Z",
+      "id": "run-2026-09-02-ia03-auto",
+      "startedAt": "2026-09-02T08:33:50.538Z",
+      "completedAt": "2026-09-02T08:35:33.068Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 15,
+      "sourcesChecked": 14,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-26 for IA-03. Sources checked: 15. LLM verifications: 17. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-02 for IA-03. Sources checked: 14. LLM verifications: 14. 5 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-02T04:49:08.455Z",
+    "NEXT_REFRESH_AT": "2026-09-09T08:35:33.068Z",
     "WEEKLY_REPORT": {
       "id": "wr-ia03-2026-w26",
       "periodStart": "2026-06-15",
