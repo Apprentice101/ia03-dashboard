@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-09-02",
   "updatedAt": "2026-09-02T08:35:33.068Z",
-  "exportedAt": "2026-09-02T09:09:44.059Z",
+  "exportedAt": "2026-09-04T01:12:20.998Z",
   "districtCode": "ia-03",
   "data": {
     "DISTRICT": {
@@ -251,7 +251,7 @@
         "short": "Politico (June 15, 2026)",
         "url": "https://www.politico.com/news/2026/06/15/iowa-battleground-rfk-zach-nunn-challenger-00962665",
         "publisher": "Politico",
-        "sourceType": "journalism",
+        "sourceType": "news",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-17",
         "lastVerified": "2026-06-17",
@@ -263,7 +263,7 @@
         "short": "CBS2 Iowa (June 16, 2026)",
         "url": "https://cbs2iowa.com/news/local/iowa-libertarian-says-republicans-urged-him-to-drop-out-of-race-zach-nunn-sarah-trone-garriott-elections-robert-f-kennedy-jr-iowa",
         "publisher": "CBS2 Iowa / KGAN",
-        "sourceType": "journalism",
+        "sourceType": "news",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-17",
         "lastVerified": "2026-06-17",
