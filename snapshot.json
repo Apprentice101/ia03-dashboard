@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-16",
-  "updatedAt": "2026-09-16T09:17:52.301Z",
-  "exportedAt": "2026-09-16T09:51:30.448Z",
+  "dataAsOf": "2026-09-23",
+  "updatedAt": "2026-09-23T09:13:29.176Z",
+  "exportedAt": "2026-09-23T09:37:53.958Z",
   "districtCode": "ia-03",
   "data": {
     "DISTRICT": {
@@ -98,7 +98,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-ia-sos-absentee": {
@@ -122,7 +122,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-ia-statutes": {
@@ -158,7 +158,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-ia-hf954": {
@@ -1311,20 +1311,80 @@
         "relevanceSummary": "This county election-administration page describes Iowa law on when early and satellite absentee ballots are available (no earlier than 20 days before an election) and lists valid voter-ID documents required for early and satellite voting, offering IA-03 voters a concrete example of county-level implementation of statewide rules.[1][5]",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0w1v4s2",
+        "headline": "NOTICE OF GENERAL ELECTION",
+        "sourceName": "Telegraph Herald",
+        "url": "https://www.telegraphherald.com/classifieds/legals/ad_2c7d2b84-cdc0-5717-bd45-867b577fd38e.html",
+        "publishedAt": "2026-09-23",
+        "relevanceSummary": "Dubuque County’s official election notice announces voting-machine testing beginning September 29. County-level equipment testing is relevant to Iowa election administration and may inform procedures in counties serving Iowa voters.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-04f30sf",
+        "headline": "Iowa officials highlight election security, voting process ahead of Election Day",
+        "sourceName": "CBS2 Iowa",
+        "url": "https://cbs2iowa.com/news/local/iowa-officials-highlight-election-security-voting-process-ahead-of-election-day",
+        "publishedAt": "2026-09-23",
+        "relevanceSummary": "Iowa election officials described election-security procedures and said there will be no changes to mail-in voting, directly informing IA-03 voters who plan to vote by mail.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0xw272m",
+        "headline": "Which voter ID rules have changed since 2022? Here's what you need for the 2026 midterms",
+        "sourceName": "MEAWW",
+        "url": "https://news.meaww.com/which-voter-id-rules-have-changed-since-2022-heres-what-you-need-for-the-2026-midterms",
+        "publishedAt": "2026-09-22",
+        "relevanceSummary": "The article reports that Iowa removed the option for another voter to attest to the identity of someone who lacks acceptable identification, a statewide voter-ID change applicable to IA-03 voters.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0morjio",
+        "headline": "General Election (11/03/2026)",
+        "sourceName": "Story County, Iowa",
+        "url": "https://www.storycountyiowa.gov/1754/General-Election-11032026",
+        "publishedAt": "2026-09-21",
+        "relevanceSummary": "Story County’s election information explains the October 19 registration deadline, absentee-request ID-number requirements, in-person absentee identification, and identity and residency documentation for Election Day registration. These reflect Iowa procedures relevant to IA-03 voters.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-03igggc",
+        "headline": "General Election Reminders",
+        "sourceName": "Western Iowa Today",
+        "url": "https://westerniowatoday.com/2026/09/21/general-election-reminders/",
+        "publishedAt": "2026-09-21",
+        "relevanceSummary": "The reminders identify Iowa’s October 19 voter-registration and absentee-ballot-request deadline, October 14 start of absentee voting, November 2 in-person absentee deadline, and November 3 polling hours. They also explain acceptable identity and residency documentation for registration and voting.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0038x29",
+        "headline": "Early Voting Starts October 14th in Iowa",
+        "sourceName": "Western Iowa Today",
+        "url": "https://westerniowatoday.com/2026/09/18/early-voting-starts-october-14th-in-iowa/",
+        "publishedAt": "2026-09-18",
+        "relevanceSummary": "The article reports that Iowa absentee ballots may be requested through county auditors, will begin mailing October 14, require identification, and must be received by 8 p.m. on Election Day. These statewide procedures apply to IA-03 voters.",
+        "tag": "deadline",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-16-ia03-auto",
-      "startedAt": "2026-09-16T09:16:05.975Z",
-      "completedAt": "2026-09-16T09:17:52.301Z",
+      "id": "run-2026-09-23-ia03-auto",
+      "startedAt": "2026-09-23T09:11:53.000Z",
+      "completedAt": "2026-09-23T09:13:29.176Z",
       "triggerType": "scheduled",
       "sourcesChecked": 14,
-      "updatesCreated": 8,
+      "updatesCreated": 6,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-16 for IA-03. Sources checked: 14. LLM verifications: 14. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-23 for IA-03. Sources checked: 14. LLM verifications: 14. 3 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-23T09:17:52.301Z",
+    "NEXT_REFRESH_AT": "2026-09-30T09:13:29.176Z",
     "WEEKLY_REPORT": {
       "id": "wr-ia03-2026-w26",
       "periodStart": "2026-06-15",
