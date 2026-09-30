@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-23",
-  "updatedAt": "2026-09-23T09:13:29.176Z",
-  "exportedAt": "2026-09-23T09:37:53.958Z",
+  "dataAsOf": "2026-09-30",
+  "updatedAt": "2026-09-30T10:18:41.684Z",
+  "exportedAt": "2026-09-30T10:37:39.551Z",
   "districtCode": "ia-03",
   "data": {
     "DISTRICT": {
@@ -98,7 +98,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-ia-sos-absentee": {
@@ -110,7 +110,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-ia-voter-ready": {
@@ -158,7 +158,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-ia-hf954": {
@@ -1371,20 +1371,60 @@
         "relevanceSummary": "The article reports that Iowa absentee ballots may be requested through county auditors, will begin mailing October 14, require identification, and must be received by 8 p.m. on Election Day. These statewide procedures apply to IA-03 voters.",
         "tag": "deadline",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0z721bx",
+        "headline": "2026 Battleground Report: How Voting Rules Have Changed Since the 2022 Midterms",
+        "sourceName": "Voting Rights Lab",
+        "url": "https://votingrightslab.org/report/2026-battleground-report-how-voting-rules-have-changed-since-the-2022-midterms/",
+        "publishedAt": "2026-09-29",
+        "relevanceSummary": "The report says Iowa eliminated voter attestation for people without acceptable identification; those voters must cast a provisional ballot and provide required documents by noon the Monday after Election Day. It also says mail voters must include a driver’s-license or Social Security number and that each county may have only one drop box, making this directly relevant to IA-03 voters.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0ue4vla",
+        "headline": "Voter Pre-Registration Deadline Approaching",
+        "sourceName": "KIOW",
+        "url": "https://kiow.com/2026/09/28/voter-pre-registration-deadline-approaching/",
+        "publishedAt": "2026-09-28",
+        "relevanceSummary": "The article states that Iowa’s pre-registration deadline for the November 3, 2026 general election is October 19 at 5:00 p.m., which is also the deadline to request an absentee ballot by mail. It provides county-auditor hours and absentee-voting dates, illustrating procedures applicable statewide and to IA-03 voters.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-02hhxqa",
+        "headline": "Early voting underway in Illinois, starts soon in Iowa: What Quad Cities voters need to know",
+        "sourceName": "KWQC",
+        "url": "https://www.kwqc.com/2026/09/25/early-voting-underway-illinois-starts-soon-iowa-what-quad-cities-voters-need-know/",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "The article directs Iowa voters to check registration status, polling locations, and sample ballots through the Iowa Secretary of State. Its regional early-voting guidance is relevant to voters in Iowa and may help IA-03 residents verify where and how to vote.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0ik8yu7",
+        "headline": "2026 Iowa Election: Who's on my ballot",
+        "sourceName": "Iowa Public Radio",
+        "url": "https://www.iowapublicradio.org/political-news/2026-09-24/2026-iowa-ballot-voting-iowa-governor",
+        "publishedAt": "2026-09-24",
+        "relevanceSummary": "The voter-information guide explains how Iowa voters can identify candidates on their 2026 ballot and directs voters to the Iowa Secretary of State to register or check registration. The statewide ballot-access information is relevant to IA-03 voters preparing for the November general election.",
+        "tag": "candidates",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-23-ia03-auto",
-      "startedAt": "2026-09-23T09:11:53.000Z",
-      "completedAt": "2026-09-23T09:13:29.176Z",
+      "id": "run-2026-09-30-ia03-auto",
+      "startedAt": "2026-09-30T10:17:37.925Z",
+      "completedAt": "2026-09-30T10:18:41.684Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 14,
-      "updatesCreated": 6,
+      "sourcesChecked": 15,
+      "updatesCreated": 4,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-23 for IA-03. Sources checked: 14. LLM verifications: 14. 3 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-30 for IA-03. Sources checked: 15. LLM verifications: 15. 3 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-30T09:13:29.176Z",
+    "NEXT_REFRESH_AT": "2026-10-07T10:18:41.684Z",
     "WEEKLY_REPORT": {
       "id": "wr-ia03-2026-w26",
       "periodStart": "2026-06-15",
