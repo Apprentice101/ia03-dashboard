@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-30",
-  "updatedAt": "2026-09-30T10:18:41.684Z",
-  "exportedAt": "2026-09-30T10:37:39.551Z",
+  "dataAsOf": "2026-10-07",
+  "updatedAt": "2026-10-07T10:54:23.379Z",
+  "exportedAt": "2026-10-07T11:13:06.735Z",
   "districtCode": "ia-03",
   "data": {
     "DISTRICT": {
@@ -98,7 +98,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "high"
       },
       "src-ia-sos-absentee": {
@@ -110,7 +110,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "high"
       },
       "src-ia-voter-ready": {
@@ -122,7 +122,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-10-07",
         "confidence": "high"
       },
       "src-ia-statutes": {
@@ -158,7 +158,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "high"
       },
       "src-ia-hf954": {
@@ -1411,20 +1411,80 @@
         "relevanceSummary": "The voter-information guide explains how Iowa voters can identify candidates on their 2026 ballot and directs voters to the Iowa Secretary of State to register or check registration. The statewide ballot-access information is relevant to IA-03 voters preparing for the November general election.",
         "tag": "candidates",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0k4jcm6",
+        "headline": "Why Iowans are getting voter mailers",
+        "sourceName": "KCCI",
+        "url": "https://www.kcci.com/article/iowa-voter-registration-absentee-ballot-mailers/74040625",
+        "publishedAt": "2026-10-06",
+        "relevanceSummary": "The report advises Iowa voters to verify unsolicited registration and absentee-ballot mailers with their county auditor and provides statewide deadlines: absentee requests are due by 5 p.m. October 19, and completed ballots must be received by 8 p.m. November 3.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0vqp4nz",
+        "headline": "Why some Iowans are getting voter registration and absentee ballot mailers",
+        "sourceName": "KCRG",
+        "url": "https://www.kcrg.com/2026/10/06/why-some-iowans-are-getting-voter-registration-absentee-ballot-mailers/",
+        "publishedAt": "2026-10-06",
+        "relevanceSummary": "The article warns Iowa voters to verify the sender and return address of registration and absentee-ballot mailers, directs voters to official state resources, and states that absentee requests must reach county auditors by 5 p.m. October 19 while completed ballots must arrive by 8 p.m. Election Day.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0f2wadd",
+        "headline": "Iowa Democrats chip into GOP voter registration lead. Here's where:",
+        "sourceName": "Des Moines Register",
+        "url": "https://www.desmoinesregister.com/story/news/politics/elections/2026/10/06/iowa-voter-registration-data-2026-election/92057067007/",
+        "publishedAt": "2026-10-06",
+        "relevanceSummary": "The article reports Iowa Secretary of State voter-registration data and provides statewide dates relevant to IA-03 voters: early voting and absentee-ballot mailing begin October 14, absentee requests are due to county auditors by October 19, and voter pre-registration closes October 19, though Election Day registration remains available.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0yopx9l",
+        "headline": "Here's your guide to early voter registration and requirements",
+        "sourceName": "KTIV",
+        "url": "https://www.ktiv.com/2026/10/02/decision-2026-heres-your-guide-early-voter-registration-requirements/",
+        "publishedAt": "2026-10-02",
+        "relevanceSummary": "This Iowa voter guide explains registration eligibility and statewide procedures for IA-03 voters, including October 14 early voting, the October 19 deadline for mailed absentee-ballot requests, and restrictions affecting felony convictions, court-declared incompetence, and duplicate registration.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0pby09a",
+        "headline": "State Voting Laws Roundup: October 2026",
+        "sourceName": "Brennan Center for Justice",
+        "url": "https://www.brennancenter.org/our-work/research-reports/state-voting-laws-roundup-october-2026",
+        "publishedAt": "2026-10-01",
+        "relevanceSummary": "The roundup reports that an Iowa law taking effect for the 2026 midterms removes the option for a voter without acceptable photo ID to have another registered voter in the same precinct attest to the voter’s identity. This statewide voter-ID change applies directly to IA-03 voters.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0o9v9mk",
+        "headline": "General Election Voter Pre-Registration and Absentee Ballot Request Deadline is October 19th",
+        "sourceName": "Western Iowa Today",
+        "url": "https://westerniowatoday.com/2026/10/01/general-election-voter-pre-registration-and-absentee-ballot-request-deadline-is-october-19th/",
+        "publishedAt": "2026-10-01",
+        "relevanceSummary": "The Cass County Auditor gives Iowa voters the October 19, 2026, 5 p.m. deadlines for pre-registration and mailed absentee-ballot requests, explains Election Day registration and identification requirements, and lists early in-person voting dates and polling hours. Cass County is outside IA-03, but the statewide procedures directly apply to district voters.",
+        "tag": "deadline",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-30-ia03-auto",
-      "startedAt": "2026-09-30T10:17:37.925Z",
-      "completedAt": "2026-09-30T10:18:41.684Z",
+      "id": "run-2026-10-07-ia03-auto",
+      "startedAt": "2026-10-07T10:53:20.610Z",
+      "completedAt": "2026-10-07T10:54:23.379Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 15,
-      "updatesCreated": 4,
+      "sourcesChecked": 14,
+      "updatesCreated": 6,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-30 for IA-03. Sources checked: 15. LLM verifications: 15. 3 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-07 for IA-03. Sources checked: 14. LLM verifications: 14. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-07T10:18:41.684Z",
+    "NEXT_REFRESH_AT": "2026-10-14T10:54:23.379Z",
     "WEEKLY_REPORT": {
       "id": "wr-ia03-2026-w26",
       "periodStart": "2026-06-15",
