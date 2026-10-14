@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-07",
-  "updatedAt": "2026-10-07T10:54:23.379Z",
-  "exportedAt": "2026-10-07T11:13:06.735Z",
+  "dataAsOf": "2026-10-14",
+  "updatedAt": "2026-10-14T09:18:14.020Z",
+  "exportedAt": "2026-10-14T09:32:49.145Z",
   "districtCode": "ia-03",
   "data": {
     "DISTRICT": {
@@ -98,7 +98,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-ia-sos-absentee": {
@@ -110,7 +110,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-ia-voter-ready": {
@@ -122,7 +122,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-ia-statutes": {
@@ -158,7 +158,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-16",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-ia-hf954": {
@@ -1471,20 +1471,80 @@
         "relevanceSummary": "The Cass County Auditor gives Iowa voters the October 19, 2026, 5 p.m. deadlines for pre-registration and mailed absentee-ballot requests, explains Election Day registration and identification requirements, and lists early in-person voting dates and polling hours. Cass County is outside IA-03, but the statewide procedures directly apply to district voters.",
         "tag": "deadline",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0ludl26",
+        "headline": "Three weeks out from the November election, write-in candidate and voter participation deadlines approach",
+        "sourceName": "Ballotpedia",
+        "url": "https://news.ballotpedia.org/2026/10/13/three-weeks-out-from-the-november-election-write-in-candidate-and-voter-participation-deadlines-approach/",
+        "publishedAt": "2026-10-13",
+        "relevanceSummary": "The election-calendar update identifies October 19 as Iowa's final day to request an absentee or mail ballot for the November 3 general election.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0u7veyq",
+        "headline": "General election information for Black Hawk County voters",
+        "sourceName": "Black Hawk County Election Office",
+        "url": "https://www.blackhawkcounty.iowa.gov/CivicAlerts.aspx?aid=725",
+        "publishedAt": "2026-10-13",
+        "relevanceSummary": "Black Hawk County's official notice provides local early in-person absentee dates and hours, the October 19 mail-ballot request deadline, Election Day registration identification requirements, and ballot availability. County-level procedures can inform Iowa election administration but are indirectly relevant to IA-03 voters.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0x1u193",
+        "headline": "Important November 3 General Election Dates",
+        "sourceName": "Scott County Auditor",
+        "url": "https://www.scottcountyiowa.gov/auditor/post/2026/10/12/important-november-3-general-election-dates",
+        "publishedAt": "2026-10-12",
+        "relevanceSummary": "Scott County's official schedule details mail-ballot request and return deadlines, early-voting hours, satellite locations, a drop-box location, and polling hours. It is county-specific but illustrates Iowa election procedures and statewide deadlines relevant to IA-03 voters.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-07fcx61",
+        "headline": "Early voting starts this week in Iowa. Here's what you need to know",
+        "sourceName": "Iowa Public Radio",
+        "url": "https://www.iowapublicradio.org/political-news/2026-10-12/what-you-need-to-know-early-voting-iowa-2026-election",
+        "publishedAt": "2026-10-12",
+        "relevanceSummary": "Iowa's statewide early-voting guide applies to IA-03 voters and explains in-person absentee voting and acceptable identification, including an Iowa driver's license, non-operator ID, voter identification card, military or veteran ID, and U.S. passport.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-005glkl",
+        "headline": "How to register to vote in Iowa or check voter registration for 2026",
+        "sourceName": "The Des Moines Register",
+        "url": "https://www.desmoinesregister.com/story/news/politics/elections/2026/10/09/register-to-vote-iowa-deadline-2026/92117304007/",
+        "publishedAt": "2026-10-09",
+        "relevanceSummary": "The statewide registration guide says online and mailed registration for the general election is due October 19, while same-day registration remains available on Election Day with proof of identity and address.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ia03-0ospiha",
+        "headline": "Iowa election guide: Sample ballots for KCCI's coverage area",
+        "sourceName": "KCCI",
+        "url": "https://www.kcci.com/article/iowa-election-guide-sample-ballots-2026-general-election-nov-3/74083749",
+        "publishedAt": "2026-10-08",
+        "relevanceSummary": "This Iowa voter guide covers absentee-ballot requests due October 19, identification information required on the request form, same-day registration, acceptable IDs, polling hours, and how to find a polling place.",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-07-ia03-auto",
-      "startedAt": "2026-10-07T10:53:20.610Z",
-      "completedAt": "2026-10-07T10:54:23.379Z",
+      "id": "run-2026-10-14-ia03-auto",
+      "startedAt": "2026-10-14T09:17:13.233Z",
+      "completedAt": "2026-10-14T09:18:14.020Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 14,
+      "sourcesChecked": 16,
       "updatesCreated": 6,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-07 for IA-03. Sources checked: 14. LLM verifications: 14. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-14 for IA-03. Sources checked: 16. LLM verifications: 16. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-14T10:54:23.379Z",
+    "NEXT_REFRESH_AT": "2026-10-21T09:18:14.020Z",
     "WEEKLY_REPORT": {
       "id": "wr-ia03-2026-w26",
       "periodStart": "2026-06-15",
